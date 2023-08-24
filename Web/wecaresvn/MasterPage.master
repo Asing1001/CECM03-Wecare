@@ -1,0 +1,363 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<%@ Register Src="CtrAnnou.ascx" TagPrefix="uc1" TagName="CtrAnnou" %>
+
+
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>	
+	<!-- core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/animate.min.css" rel="stylesheet" />
+    <link href="css/custom.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/loginformCss.css" rel="stylesheet" />
+    <link href="css/prettyPhoto.css" rel="stylesheet"/>
+    <link href="css/responsive.css" rel="stylesheet"/>
+    <link href="css/CW.css" rel="stylesheet" />
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+
+    <link rel="shortcut icon" href="images/ico/favicon.ico"/>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png"/>
+   
+  <%-- 放script --%>
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="Scripts/Jquery-cookie.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script>
+        function chkLength(source, args) {
+            if ((args.Value.length >= 4) && (args.Value.length <= 8)) {
+                args.IsValid = true;
+            } else {
+                args.IsValid = false;
+            }
+        }
+    </script>
+
+</head>
+<body class="homepage">
+   <form id="form1" runat="server">
+    <header id="header" style=" display:block">
+        <nav class="navbar navbar-inverse" role="banner">
+            <div class="container">
+                <%-- 控制列--%>
+                <div class="navbar-header">
+                    <!-- 此部分不论在任何宽度下都一直存在，常用来展开或收起导航 -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                 <img style="width:80px;height:65px;" src="images/wecare_red.png" alt="logo"/>
+                </div>
+				<%--上方按鈕--%>
+                <div class="collapse navbar-collapse navbar-right" style="padding:0 !important" >
+                    <ul id="ctrTitle" class="nav navbar-nav">
+<%--                        <li class="active"><a href="Index.aspx">Home</a></li>--%>
+                        <li> <asp:LinkButton ID="home" runat="server" href="Index.aspx">首頁</asp:LinkButton></li>
+                        <li> <asp:LinkButton ID="aboutus" runat="server" href="AboutUs.aspx">關於我們</asp:LinkButton></li>
+                        <li ><a  href="MedicalTeams.aspx?divID=1">醫療團隊</a></li>
+                        <li ><a  href="CommonHealth.aspx">健康新知</a></li>
+                        <li><a href="ConsultR.aspx">線上諮詢</a></li>
+                        
+                        <%--登出/註冊--%>
+                        <li class="dropdown">
+                            <asp:LinkButton class="dropdown-toggle" data-toggle="dropdown" ID="loginpopup" runat="server"   >登入 / 註冊 </asp:LinkButton> <%--<a ></a>--%>
+                            <ul class="dropdown-menu">
+                               <li> <asp:LinkButton ID="linkbtnLogoutOK" runat="server"  OnClick="linkbtnLogoutOK_Click">登出</asp:LinkButton></li>
+                            </ul>
+                        </li>
+
+                        <%--功能選單--%>
+                        <li class="dropdown">
+                                <asp:LinkButton class="dropdown-toggle" data-toggle="dropdown" ID="loginFunction" runat="server">功能選單<i class="fa fa-angle-down"></i></asp:LinkButton> 
+                            <ul class="dropdown-menu">
+                                
+                                 <%--醫療人員--%>
+                                <li>
+                                    <asp:LinkButton ID="calendar" runat="server" href="Calendar.aspx">行事曆</asp:LinkButton>
+<%--                                <a href="Calendar.aspx">行事曆</a>--%>
+                                </li>
+                                <li>
+                                    <asp:LinkButton ID="showreport" runat="server" href="ShowReport.aspx">報表</asp:LinkButton>
+                                </li>
+                                <li>
+                                    <asp:LinkButton ID="personalInf" runat="server" href="PersonalInf.aspx">個人資料編修</asp:LinkButton>
+                                </li>
+                                   <li>
+                                    <asp:LinkButton ID="PatientInf" runat="server" href="PatientInf.aspx">個人資料編修</asp:LinkButton>
+                                </li>
+
+
+                                 <%--病患特有功能--%>
+                                <li>
+                                    <asp:LinkButton ID="illhistory" runat="server" href="timeLines.aspx">病史</asp:LinkButton>
+                                </li>
+                                <li>
+                                    <asp:LinkButton ID="report" runat="server" href="report.aspx">報告</asp:LinkButton>
+                                </li>
+
+                                <li>
+                                    <asp:LinkButton ID="command" runat="server" href="SatisfactionQuestionnaire.aspx">就診滿意度評價</asp:LinkButton>
+                                </li>
+
+
+                                 <%--管理人員功能--%>
+                                <li>
+                                    <asp:LinkButton ID="news" runat="server" href="NewsManagement.aspx">公告編輯</asp:LinkButton>
+                                </li>
+                                <li>
+                                    <asp:LinkButton ID="Knowledge" runat="server" href="CommonHealthModify.aspx">健康新知編輯</asp:LinkButton>
+                                </li>
+
+                             </ul>
+                      </li>
+                        <%--對外超連結--%>
+                      <li><ul class="social-share visible-lg visible-md">  <!--facebook -->
+                          <li><a href="http://wecarestore.azurewebsites.net/"><i class="glyphicon glyphicon-shopping-cart"></i></a></li>
+                          <li style="color:white">購物商城</li>
+<%--                              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>                                 
+                                <li><a href="#"><i class="fa fa-skype"></i></a></li>--%>
+                             </ul>
+                      </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<%--每頁內容 寬高不設--%> 
+  <div style="width:100%;margin:0 auto; height:78%;  display:block; top:79px; bottom:71px;  " > 
+  <%--style="margin:0 auto;padding-bottom: 82px;overflow:auto; height:100% --%>
+
+   <div style="margin:0 auto;width:100% ;height:5%; background:-webkit-linear-gradient(top,#000000 70%,#ffffff );" >
+       <%--跑馬燈公告--%>
+        <uc1:CtrAnnou runat="server" ID="CtrAnnou" />
+   </div> 
+
+       <div style="height:95%">
+       <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">    
+       <%--頁面內容--%>
+       </asp:ContentPlaceHolder>
+       </div>
+   </div>
+
+
+<%--頁尾--%>
+<footer id="footer" class="midnight-blue visible-lg visible-md" style="display:block; position:fixed; height:2%;width:100%;bottom:0;">  <%--style=" position:relative; margin-top:-82px; height:82px; clear:both;--%>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    &copy; 2014 CECM03 WeCare
+                </div>
+                <div class="col-sm-8">
+                    <ul class="pull-right">
+                        <li><a href="Index.aspx">Home</a></li>
+                        <li><a href="AboutUs.aspx">About Us</a></li>
+                        <li ><a  href="MedicalTeams.aspx">MedicalTeams</a></li>
+                        <li ><a  href="CommonHealth.aspx">CommonHealth</a></li>
+                        <li><a href="ConsultR.aspx">Consult</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+</footer>
+
+<%--登入表單--%>
+<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="mymodallabel1" aria-hidden="true">
+    <div class="modal-dialog" style="margin-top: 150px;width:340px">
+       <div class="modal-content" style="width:325px;"> 
+          <div class="container" style="width:320px; height:280px;  padding:0px;margin:0px;">
+            <%-- 表頭--%> 
+            <div class="modal-header"  style="width:320px;padding:8px 20px;">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel1">登入</h4><span id="Label1" style="color: red;"></span>
+            </div>
+            <%-- 身體--%> 
+            <div class="modal-body" id="login_details" style="width:320px;height:160px;padding:2px">
+                <div class="tabbable tabs-left">
+                    <ul class="nav nav-tabs" style="margin:0px 1px;">
+                      <li  id="p" class="active">
+                          
+                          <asp:HyperLink ID="Patients" data-toggle="tab"  NavigateUrl="#a"  runat="server">病患</asp:HyperLink>
+                          <%-- <a href="#a" data-toggle="tab">病患</a>--%>
+                      </li>
+                      <li >
+                        <asp:HyperLink ID="Hostpital" data-toggle="tab"  NavigateUrl="#b" runat="server" >醫護</asp:HyperLink></li>
+                        <%--<a href="#b" data-toggle="tab">醫護</a>--%>
+                    </ul>
+                    
+                    <div class="tab-content" id="loginaccpwd">
+                        <div class="tab-pane active" id="a" style="height:95px;">
+                          <div class="form-1" style="width:150px;height:40px">
+                              <%--病人--%>
+					            <p class="field" style="width:190px;">
+<%--						        <input type="text" name="login" placeholder="請輸入身分證字號" style="height:38px; margin:0px;display:inline; "/>--%>
+                                    <asp:TextBox ID="TextBoxAccount" placeholder="請輸入身分證字號" runat="server" Height="38px"></asp:TextBox>
+						            <i class="icon-user icon-large"></i>
+                                </p>
+				                <p class="field" style="margin:0px; width:190px;">
+<%--							    <input type="password" name="password" placeholder="請輸入密碼" style="height:38px; margin:0px;"/>--%>
+                                    <asp:TextBox ID="TextBoxPwd" placeholder="Password" name="login_password" runat="server" Height="38" TextMode="Password"></asp:TextBox>
+							        <i class="icon-lock icon-large"></i>
+					            </p> 
+                          </div>
+                       </div>
+
+                       <div class="tab-pane " id="b" style="height:95px;">
+                          <div class="form-1" style="width:150px;height:40px">
+                              <%--醫護  尚未二分--%>
+					            <p class="field" style="width:190px;">
+<%--						        <input type="text" name="login" placeholder="請輸入身分證字號" style="height:38px; margin:0px;display:inline; "/>--%>
+                                    <asp:TextBox ID="HTextBoxAccount" placeholder="請輸入帳號" runat="server" Height="38px"></asp:TextBox>
+						            <i class="icon-user icon-large"></i>
+                                </p>
+				                <p class="field" style="margin:0px; width:190px;">
+<%--							    <input type="password" name="password" placeholder="請輸入密碼" style="height:38px; margin:0px;"/>--%>
+                                    <asp:TextBox ID="HTextBoxPwd" placeholder="Password" name="login_password" runat="server" Height="38" TextMode="Password"></asp:TextBox>
+							        <i class="icon-lock icon-large"></i>
+					            </p> 
+                          </div>
+                       </div>
+                    </div>
+                        <div>
+                      
+                          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<asp:CheckBox ID="CheckBoxAutoLogin" Text="自動登入" runat="server" Font-Size="Small" />
+                      <%--<input id="checkbox3" type="checkbox" name="checkbox3" /><label for="checkbox3">自動登入</label>--%>
+                          <asp:Label ID="LoginResult" runat="server" Style="color: red;"></asp:Label>
+                          <asp:Button id="btnPloginok" runat="server" Style="float: right;margin:8px 43px 0px 0px;" class="btn btn-success" OnClick="btnPLoginOK_Click" Text="登入" />
+                          <asp:Button id="btnHloginok" runat="server" Style="float: right;margin:8px 43px 0px 0px;" class="btn btn-success" OnClick="btnHLoginOK_Click" Text="登入" />
+                        <%--&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp--%>
+<%--                    <input type="submit" name="btnloginok" value="登入" id="btnloginok" class="btn btn-success"  />--%>
+                        
+                        </div>
+                   <%-- <asp:HiddenField ID="HiddenField1" runat="server"  Value="<%#ClassUtility.getDivTitles(1); %>" />--%>
+
+              </div>
+            </div>
+            <%-- 尾巴--%> 
+            <div class="modal-footer" style="margin:0px;padding:3px 10px 10px 10px;">
+                        <span id="btnfoget"  data-toggle="modal" data-target="#forgetPwd" ><a href="#">忘記密碼</a><i class="icon-question-sign"></i></span>
+                        <br />
+                        <span>還沒加入會員?</span>
+                        <span id="signup-link" style="cursor: pointer;" class="text-info">註冊</span><i class="icon-exclamation-sign"></i>
+            </div>
+
+        </div>
+       </div>
+     </div>
+    </div>
+<%--註冊表單--%>
+<div class="modal fade" id="signup" tabindex="-1" role="dialog" aria-labelledby="mymodallabel1" aria-hidden="true">
+        <div class="modal-dialog" style="margin-top: 150px;width:330px">
+            <div class="modal-content" style="width:330px"> 
+              <div class="container" style="width:330px; height:350px;  padding:0px;margin:0px;">
+                <%-- 表頭--%> 
+                <div class="modal-header"  style="width:330px;padding:8px 20px;">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel2">註冊</h4>
+                </div>
+                <%-- 身體--%> 
+                <div class="modal-body" id="signup_details" style="width:330px;height:250px;padding:2px">
+                   <div class="form-1" style="width:220px;height:40px">
+					<p class="field" style="margin:0px;width:220px;height:35px;">
+<%--						<input type="text" name="login" placeholder="請輸入身分證字號" style="height:38px; margin:0px;display:inline; "/>--%>
+                            <asp:TextBox ID="TextBoxSigninAC" placeholder="請輸入身分證字號" name="register_name" runat="server" Height="38"></asp:TextBox>
+						<i class="icon-user icon-large"></i>
+                    </p>
+                      <asp:RequiredFieldValidator ID="RequiredFieldValidatorAccount" runat="server" ErrorMessage="請輸入身分證字號" ControlToValidate="TextBoxSigninAC" Font-Size="Small" ForeColor="Red" Width="140" ValidationGroup="1"></asp:RequiredFieldValidator><br/>
+				    <p class="field" style="margin:0px; width:220px;height:35px;">
+<%--						<input type="text" name="password" placeholder="請輸入信箱" style="height:38px; margin:0px;"/>--%>
+                            <asp:TextBox ID="TextBoxSigninEmail" runat="server" placeholder="example@gmail.com" name="register_email" Height="38"></asp:TextBox>
+							<i class="icon-envelope-alt icon-large"></i>
+					</p> 
+                      <asp:RequiredFieldValidator ID="RequiredFieldValidatorEmail" runat="server" ControlToValidate="TextBoxSigninEmail" Display="Dynamic" ErrorMessage="請輸入Email" Font-Size="Small" ForeColor="Red" Width="120" ValidationGroup="1"></asp:RequiredFieldValidator><asp:RegularExpressionValidator ID="RegularExpressionValidatorEmail" runat="server" ErrorMessage="EMAIL格式錯誤" ControlToValidate="TextBoxSigninEmail" Font-Size="Small" ForeColor="Red" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"  Width="120" Display="Dynamic" ValidationGroup="1"></asp:RegularExpressionValidator><br/>
+                   	<p class="field" style="margin:0px; width:220px;height:35px;">
+<%--					    <input type="password" name="password" placeholder="請輸入密碼" style="height:38px; margin:0px;"/>--%>
+                            <asp:TextBox ID="TextBoxSigninPwd" runat="server" placeholder="請輸入密碼" name="register_password" Height="38" TextMode="Password"></asp:TextBox>
+							<i class="icon-lock icon-large"></i>
+					</p> 
+                      <asp:RequiredFieldValidator ID="RequiredFieldValidatorPwd" runat="server" ControlToValidate="TextBoxSigninPwd" Display="Dynamic" ErrorMessage="請輸入密碼" Font-Size="Small" ForeColor="Red" Width="120" ValidationGroup="1"></asp:RequiredFieldValidator><asp:CustomValidator ID="CustomValidatorPwd" runat="server" ErrorMessage="請輸入4~8字元" ControlToValidate="TextBoxSigninPwd" Font-Size="Small" ForeColor="Red" ClientValidationFunction="chkLength" Width="120" Display="Dynamic" ValidationGroup="1"></asp:CustomValidator><br/>
+                   	<p class="field" style="margin:0px; width:220px;height:35px;">
+<%--						<input type="text" name="passwordConfirm" placeholder="請再次確認密碼" style="height:38px; margin:0px;"/>--%>
+                            <asp:TextBox ID="TextBoxConfirmPwd" runat="server" placeholder="請再次確認密碼" name="re_register_password" Height="38" TextMode="Password"></asp:TextBox>
+							<i class="icon-lock icon-large"></i>
+                    </p>
+                      <asp:RequiredFieldValidator ID="RequiredFieldValidatorConfirmID" runat="server" ControlToValidate="TextBoxConfirmPwd" Display="Dynamic" ErrorMessage="請再次輸入密碼" Font-Size="Small" ForeColor="Red" Width="120" ValidationGroup="1"></asp:RequiredFieldValidator><asp:CompareValidator ID="CompareValidatorPwd" runat="server" ErrorMessage="密碼不一致" ControlToCompare="TextBoxSigninPwd" ControlToValidate="TextBoxConfirmPwd" Display="Dynamic" Font-Size="Small" ForeColor="Red" Width="120" ValidationGroup="1"></asp:CompareValidator><br/>
+                    </div> 
+                
+                </div>
+                <%-- 尾巴--%> 
+                <div class="modal-footer" style="margin:0px;padding:3px 15px 10px 10px;">
+                        <asp:Button ID="btnSigninOK" runat="server"  class="btn btn-success" OnClick="btnSigninOK_Click" Text="確定" CausesValidation="True" ValidationGroup="1" Width="54" />
+<%--                    <input id="btnSigninCacel" type="button" value="清除" style="width:54px;margin:2px;" class="btn btn-success" />--%>
+                        <input id="btnSigninCacel" type="button" value="測試" style="width:54px;margin:2px;" class="btn btn-success" />
+                        <span>已是會員?</span>
+                        <span id="login-link" style="cursor: pointer;" class="text-info">登入</span><i class="icon-ok-circle"></i>
+                </div>
+               </div>
+             </div>
+            </div>
+</div>
+<%--忘記密碼--%>
+<div class="modal fade" id="forgetPwd" tabindex="-1" role="dialog" aria-labelledby="mymodallabel3" aria-hidden="false">
+     <div class="modal-dialog" style="margin-top: 200px;width:400px">
+         <div class="modal-content">
+             <%-- 表頭--%> 
+             <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel3">忘記密碼</h4>
+                    <asp:Label ID="LabelEmail" runat="server" Style="color: red;"></asp:Label>
+             </div>
+             <%-- 身體--%>  
+             <div class="modal-body" id="forgetPwd_details">
+                <table class="registerTableStyle" runat="server">
+                    <tr>
+                        <td>E-Mail</td>
+                        <td>
+                            <asp:TextBox ID="TextBoxEmail" runat="server"></asp:TextBox>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>帳號</td>
+                        <td>
+
+                        <asp:TextBox ID="TextBoxEmailAC" runat="server"></asp:TextBox>
+                        </td>
+                        <td>&nbsp;&nbsp;<asp:Button ID="btnFogetOK" runat="server" Text="送出" class="btn btn-success" OnClick="btnFogetOK_Click"/></td>
+                        <td>&nbsp;
+<%--                            <asp:Button ID="btnForgetClear" runat="server" Text="清除" class="btn btn-success" OnClick="btnForgetClear_Click"/>--%>
+                                <input id="btnForgetClear" type="button" value="清除" class="btn btn-success"/>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+</form>
+</body>
+</html>

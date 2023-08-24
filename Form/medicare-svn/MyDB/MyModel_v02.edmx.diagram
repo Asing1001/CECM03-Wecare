@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="dff7612f955a43e68f32971f7b423f86" Name="Diagram1" ZoomLevel="111" >
+        <EntityTypeShape EntityType="MyModel_v02.Patient病患" Width="1.875" PointX="0.5" PointY="4.75" />
+        <EntityTypeShape EntityType="MyModel_v02.Register掛號資料" Width="1.875" PointX="2.875" PointY="4.75" />
+        <EntityTypeShape EntityType="MyModel_v02.Advice醫囑資料" Width="2" PointX="5.25" PointY="4.75" />
+        <EntityTypeShape EntityType="MyModel_v02.檢驗項目總表" Width="1.875" PointX="2.625" PointY="0.5" />
+        <EntityTypeShape EntityType="MyModel_v02.Medicine藥物項目總表" Width="1.875" PointX="2.625" PointY="8.375" />
+        <AssociationConnector Association="MyModel_v02.PatientRegister" />
+        <AssociationConnector Association="MyModel_v02.RegisterAdvice" />
+        <EntityTypeShape EntityType="MyModel_v02.MedicineData用藥資料" Width="2" PointX="5.25" PointY="8.375" />
+        <EntityTypeShape EntityType="MyModel_v02.InspectionData檢驗項目清單" Width="2.25" PointX="5.25" PointY="0.5" />
+        <AssociationConnector Association="MyModel_v02.AdviceInspectionSheet" />
+        <AssociationConnector Association="MyModel_v02.MedicineListMedicine" />
+        <AssociationConnector Association="MyModel_v02.InspectionSheetInspection" />
+        <EntityTypeShape EntityType="MyModel_v02.檢查類別" Width="1.5" PointX="0.5" PointY="0.5" />
+        <AssociationConnector Association="MyModel_v02.檢查類別Inspection檢驗項目總表" />
+        <EntityTypeShape EntityType="MyModel_v02.檢驗資料" Width="1.5" PointX="8.125" PointY="0.5" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

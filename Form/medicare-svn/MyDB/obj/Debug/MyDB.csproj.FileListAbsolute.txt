@@ -1,0 +1,58 @@
+D:\msit 97\Project\MyDB\bin\Debug\MyDB.dll.config
+D:\msit 97\Project\MyDB\bin\Debug\MyDB.dll
+D:\msit 97\Project\MyDB\bin\Debug\MyDB.pdb
+D:\msit 97\Project\MyDB\obj\Debug\MyDB.dll
+D:\msit 97\Project\MyDB\obj\Debug\MyDB.pdb
+C:\msit 97\Project\MyDB\bin\Debug\MyDB.dll.config
+C:\msit 97\Project\MyDB\bin\Debug\MyDB.dll
+C:\msit 97\Project\MyDB\bin\Debug\MyDB.pdb
+C:\msit 97\Project\MyDB\obj\Debug\MyDB.dll
+C:\msit 97\Project\MyDB\obj\Debug\MyDB.pdb
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyDB\bin\Debug\MyDB.dll.config
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyDB\bin\Debug\MyDB.dll
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyDB\bin\Debug\MyDB.pdb
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyDB\obj\Debug\MyDB.dll
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyDB\obj\Debug\MyDB.pdb
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyDB\obj\Debug\MyDB.csprojResolveAssemblyReference.cache
+D:\msit 97\Project\醫療客戶關懷系統\MyDB\bin\Debug\MyDB.dll.config
+D:\msit 97\Project\醫療客戶關懷系統\MyDB\bin\Debug\MyDB.dll
+D:\msit 97\Project\醫療客戶關懷系統\MyDB\bin\Debug\MyDB.pdb
+D:\msit 97\Project\醫療客戶關懷系統\MyDB\obj\Debug\MyDB.dll
+D:\msit 97\Project\醫療客戶關懷系統\MyDB\obj\Debug\MyDB.pdb
+D:\msit 97\Project\醫療客戶關懷系統\MyDB\obj\Debug\MyDB.csprojResolveAssemblyReference.cache
+C:\msit 97\Project\醫療客戶關懷系統\MyDB\bin\Debug\MyDB.dll.config
+C:\msit 97\Project\醫療客戶關懷系統\MyDB\bin\Debug\MyDB.dll
+C:\msit 97\Project\醫療客戶關懷系統\MyDB\bin\Debug\MyDB.pdb
+C:\msit 97\Project\醫療客戶關懷系統\MyDB\obj\Debug\MyDB.csprojResolveAssemblyReference.cache
+C:\msit 97\Project\醫療客戶關懷系統\MyDB\obj\Debug\MyDB.dll
+C:\msit 97\Project\醫療客戶關懷系統\MyDB\obj\Debug\MyDB.pdb
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyDB\bin\Debug\MyDB.dll.config
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyDB\bin\Debug\MyDB.dll
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyDB\bin\Debug\MyDB.pdb
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyDB\obj\Debug\MyDB.csprojResolveAssemblyReference.cache
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyDB\obj\Debug\MyDB.dll
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyDB\obj\Debug\MyDB.pdb
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyDB\bin\Debug\MyDB.dll.config
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyDB\bin\Debug\MyDB.dll
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyDB\bin\Debug\MyDB.pdb
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyDB\obj\Debug\MyDB.dll
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyDB\obj\Debug\MyDB.pdb
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyDB\bin\Debug\MyDB.dll.config
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyDB\bin\Debug\MyDB.dll
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyDB\bin\Debug\MyDB.pdb
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyDB\obj\Debug\MyDB.csprojResolveAssemblyReference.cache
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyDB\obj\Debug\MyDB.Properties.Resources.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyDB\obj\Debug\MyDB.csproj.GenerateResource.Cache
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyDB\obj\Debug\MyDB.dll
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyDB\obj\Debug\MyDB.pdb
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyDB\bin\Debug\MyDB.dll.config
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyDB\bin\Debug\MyDB.dll
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyDB\bin\Debug\MyDB.pdb
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyDB\bin\Debug\Calendar.NET.dll
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyDB\bin\Debug\Calendar.NET.pdb
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyDB\obj\Debug\MyDB.csprojResolveAssemblyReference.cache
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyDB\obj\Debug\MyDB.Properties.Resources.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyDB\obj\Debug\MyDB.csproj.GenerateResource.Cache
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyDB\obj\Debug\MyDB.dll
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyDB\obj\Debug\MyDB.pdb
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyDB\bin\Debug\Calendar.NET.xml

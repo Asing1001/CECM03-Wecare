@@ -1,0 +1,96 @@
+﻿.TimeDetailedit,.TimeDetailedit table {
+	margin:0px;padding:0px;
+	width:100%;
+	box-shadow: 10px 10px 5px #888888;
+	border:0px solid #000000;
+	
+	-moz-border-radius-bottomleft:8px;
+	-webkit-border-bottom-left-radius:8px;
+	border-bottom-left-radius:8px;
+	
+	-moz-border-radius-bottomright:8px;
+	-webkit-border-bottom-right-radius:8px;
+	border-bottom-right-radius:8px;
+	
+	-moz-border-radius-topright:8px;
+	-webkit-border-top-right-radius:8px;
+	border-top-right-radius:8px;
+	
+	-moz-border-radius-topleft:8px;
+	-webkit-border-top-left-radius:8px;
+	border-top-left-radius:8px;
+}.TimeDetailedit table{
+    border-collapse: collapse;
+        border-spacing: 0;
+	width:100%;
+	height:100%;
+	margin:0px;padding:0px;
+}.TimeDetailedit tr:last-child td:last-child {
+	-moz-border-radius-bottomright:8px;
+	-webkit-border-bottom-right-radius:8px;
+	border-bottom-right-radius:8px;
+    background:#FFFAF0;   /*rgb(255, 189, 68)*/
+}
+.TimeDetailedit table tr:first-child td:first-child {
+	-moz-border-radius-topleft:8px;
+	-webkit-border-top-left-radius:8px;
+	border-top-left-radius:8px;
+}
+.TimeDetailedit table tr:first-child td:last-child {
+	-moz-border-radius-topright:8px;
+	-webkit-border-top-right-radius:8px;
+	border-top-right-radius:8px;
+}.TimeDetailedit tr:last-child td:first-child{
+	-moz-border-radius-bottomleft:8px;
+	-webkit-border-bottom-left-radius:8px;
+	border-bottom-left-radius:8px;
+}.TimeDetailedit tr:hover td{
+	
+}
+.TimeDetailedit tr:nth-child(odd){ background-color:#ffffff; }
+.TimeDetailedit tr:nth-child(even)    { background-color:#ffffff; }.TimeDetailedit td{
+	vertical-align:middle;
+	
+	
+	border:1px solid #000000;
+	border-width:0px 1px 1px 0px;
+	text-align:left;
+	padding:7px;
+	font-size:16px;
+	font-family:微軟正黑體;
+	font-weight:bold;
+	color:#000000;
+}.TimeDetailedit tr:last-child td{
+	border-width:0px 1px 0px 0px;
+}.TimeDetailedit tr td:last-child{
+	border-width:0px 0px 1px 0px;
+}.TimeDetailedit tr:last-child td:last-child{
+	border-width:0px 0px 0px 0px;
+}
+.TimeDetailedit tr td:first-child{
+		background:-o-linear-gradient(bottom, #FFF1D6 5%, #FFF1D6 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #FFF1D6), color-stop(1, #FFF1D6) );
+	background:-moz-linear-gradient( center top, #FFF1D6 5%, #FFF1D6 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFF1D6", endColorstr="#FFF1D6");	background: -o-linear-gradient(top,#FFF1D6,#FFF1D6);
+
+	background-color:#FFF1D6;
+	border:0px solid #000000;
+	text-align:center;
+	border-width:0px 0px 1px 1px;
+	font-size:24px;
+	font-family:微軟正黑體;
+	font-weight:bold;
+	color:#000000;
+}
+.TimeDetailedit tr:first-child:hover td{
+	/*background:-o-linear-gradient(bottom, #fcbc19 5%, #fcbc19 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fcbc19), color-stop(1, #fcbc19) );
+	background:-moz-linear-gradient( center top, #fcbc19 5%, #fcbc19 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#fcbc19", endColorstr="#fcbc19");	background: -o-linear-gradient(top,#fcbc19,fcbc19);
+
+	background-color:#fcbc19;*/
+}
+.TimeDetailedit tr:first-child td:first-child{
+	border-width:0px 0px 0px 0px;
+}
+.TimeDetailedit tr:first-child td:last-child{
+	border-width:0px 0px 0px 0px;
+}

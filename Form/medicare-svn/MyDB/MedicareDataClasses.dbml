@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Medicare" Class="MedicareDataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Table Name="dbo.Divisions" Member="Divisions">
+    <Type Name="Divisions">
+      <Column Name="Div_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Div_Name" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Association Name="Divisions_Staffs" Member="Staffs" ThisKey="Div_ID" OtherKey="Div_ID" Type="Staffs" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DrugFrequencies" Member="DrugFrequencies">
+    <Type Name="DrugFrequencies">
+      <Column Name="DrugFreq_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DrugFreq_DFC" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="DrugFreq_Days" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="DrugFrequencies_DrugSchedules" Member="DrugSchedules" ThisKey="DrugFreq_ID" OtherKey="DrugFreq_ID" Type="DrugSchedules" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DrugOverview" Member="DrugOverview">
+    <Type Name="DrugOverview">
+      <Column Name="Drug_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Drug_NameEN" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Drug_NameCH" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Drug_UnMass" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Drug_Usage" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Drug_Dosage" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="Drug_App" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Drug_Indication" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Drug_SE" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Drug_WAC" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Drug_OIoS" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Drug_SpD" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="DrugOverview_DrugSchedules" Member="DrugSchedules" ThisKey="Drug_ID" OtherKey="Drug_ID" Type="DrugSchedules" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ExamCalendar" Member="ExamCalendar">
+    <Type Name="ExamCalendar">
+      <Column Name="ExamCal_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ExamSch_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Status_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ExamCon_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="RmdDays_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TI_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ExamSch_DoE" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="ExamSch_Rlt" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ExamCal_Rem" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ExamCal_Rmd" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="ExamConsequences_ExamCalendar" Member="ExamConsequences" ThisKey="ExamCon_ID" OtherKey="ExamCon_ID" Type="ExamConsequences" IsForeignKey="true" />
+      <Association Name="ExamSchedules_ExamCalendar" Member="ExamSchedules" ThisKey="ExamSch_ID" OtherKey="ExamSch_ID" Type="ExamSchedules" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="RemindDays_ExamCalendar" Member="RemindDays" ThisKey="RmdDays_ID" OtherKey="RmdDays_ID" Type="RemindDays" IsForeignKey="true" />
+      <Association Name="Situations_ExamCalendar" Member="Situations" ThisKey="Status_ID" OtherKey="Status_ID" Type="Situations" IsForeignKey="true" />
+      <Association Name="WorkShifts_ExamCalendar" Member="WorkShifts" ThisKey="TI_ID" OtherKey="TI_ID" Type="WorkShifts" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ExamCategories" Member="ExamCategories">
+    <Type Name="ExamCategories">
+      <Column Name="ExamCat_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ExamCat_Name" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Association Name="ExamCategories_ExamOverview" Member="ExamOverview" ThisKey="ExamCat_ID" OtherKey="ExamCat_ID" Type="ExamOverview" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ExamConsequences" Member="ExamConsequences">
+    <Type Name="ExamConsequences">
+      <Column Name="ExamCon_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ExamCon_CoC" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="FoodSug" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="ExamConsequences_ExamCalendar" Member="ExamCalendar" ThisKey="ExamCon_ID" OtherKey="ExamCon_ID" Type="ExamCalendar" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ExamFrequencies" Member="ExamFrequencies">
+    <Type Name="ExamFrequencies">
+      <Column Name="ExamFreq_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ExamFreq_EFC" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ExamFreq_Days" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="ExamFrequencies_ExamSchedules" Member="ExamSchedules" ThisKey="ExamFreq_ID" OtherKey="ExamFreq_EFC" Type="ExamSchedules" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ExamOverview" Member="ExamOverview">
+    <Type Name="ExamOverview">
+      <Column Name="Exam_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Exam_NameEN" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Exam_NameCH" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Exam_Sex" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="Exam_Unit" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Exam_UpLim" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="Exam_LowLim" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="Exam_WarnPct" Type="System.Decimal" DbType="Decimal(5,0) NOT NULL" CanBeNull="false" />
+      <Column Name="ExamCat_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="ExamOverview_ExamSchedules" Member="ExamSchedules" ThisKey="Exam_ID" OtherKey="Exam_ID" Type="ExamSchedules" />
+      <Association Name="ExamCategories_ExamOverview" Member="ExamCategories" ThisKey="ExamCat_ID" OtherKey="ExamCat_ID" Type="ExamCategories" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ExamSchedules" Member="ExamSchedules">
+    <Type Name="ExamSchedules">
+      <Column Name="ExamSch_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Diag_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Exam_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ExamFreq_EFC" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ExamSch_SD" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="ExamSch_ED" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="ExamSch_Rem" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ExamSch_Cls" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ExamSch_ClsRsn" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="ExamSchedules_ExamCalendar" Member="ExamCalendar" ThisKey="ExamSch_ID" OtherKey="ExamSch_ID" Type="ExamCalendar" />
+      <Association Name="ExamOverview_ExamSchedules" Member="ExamOverview" ThisKey="Exam_ID" OtherKey="Exam_ID" Type="ExamOverview" IsForeignKey="true" />
+      <Association Name="ExamFrequencies_ExamSchedules" Member="ExamFrequencies" ThisKey="ExamFreq_EFC" OtherKey="ExamFreq_ID" Type="ExamFrequencies" IsForeignKey="true" />
+      <Association Name="Diagnosis_ExamSchedules" Member="Diagnosis" ThisKey="Diag_ID" OtherKey="Diag_ID" Type="Diagnosis" IsForeignKey="true" DeleteRule="CASCADE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Forms" Member="Forms">
+    <Type Name="Forms">
+      <Column Name="Frm_ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Frm_NameCH" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Frm_NameEN" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="Forms_UseRecords" Member="UseRecords" ThisKey="Frm_ID" OtherKey="Frm_ID" Type="UseRecords" />
+    </Type>
+  </Table>
+  <Table Name="dbo.JobTitles" Member="JobTitles">
+    <Type Name="JobTitles">
+      <Column Name="Job_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Job_Title" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Association Name="JobTitles_Staffs" Member="Staffs" ThisKey="Job_ID" OtherKey="Job_ID" Type="Staffs" />
+    </Type>
+  </Table>
+  <Table Name="dbo.OutpatientInformation" Member="OutpatientInformation">
+    <Type Name="OutpatientInformation">
+      <Column Name="OPI_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="OPI_RN" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="OPI_Date" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="TI_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="OutpatientInformation_RegisterInformation" Member="RegisterInformations" ThisKey="OPI_ID" OtherKey="OPI_ID" Type="RegisterInformation" />
+      <Association Name="WorkShifts_OutpatientInformation" Member="WorkShifts" ThisKey="TI_ID" OtherKey="TI_ID" Type="WorkShifts" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Patients" Member="Patients">
+    <Type Name="Patients">
+      <Column Name="Ptt_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Ptt_Num" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Ptt_Name" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Ptt_PID" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Ptt_BD" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Ptt_Sex" Type="System.String" DbType="NVarChar(2) NOT NULL" CanBeNull="false" />
+      <Column Name="Ptt_TN" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="Ptt_Addr" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Ptt_Email" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Ptt_VIP" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Ptt_ExamRmd" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Ptt_DrugRmd" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="Patients_UseRecords" Member="UseRecords" ThisKey="Ptt_ID" OtherKey="Ptt_ID" Type="UseRecords" />
+      <Association Name="Patients_RegisterInformation" Member="RegisterInformations" ThisKey="Ptt_ID" OtherKey="Ptt_ID" Type="RegisterInformation" />
+      <Association Name="Patients_Evaluation" Member="Evaluations" ThisKey="Ptt_ID" OtherKey="Ptt_ID" Type="Evaluation" />
+    </Type>
+  </Table>
+  <Table Name="dbo.RemindDays" Member="RemindDays">
+    <Type Name="RemindDays">
+      <Column Name="RmdDays_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="RmdDays_Days" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="RemindDays_ExamCalendar" Member="ExamCalendar" ThisKey="RmdDays_ID" OtherKey="RmdDays_ID" Type="ExamCalendar" />
+      <Association Name="RemindDays_Diagnosis" Member="Diagnosis" ThisKey="RmdDays_ID" OtherKey="RmdDay_ID" Type="Diagnosis" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Situations" Member="Situations">
+    <Type Name="Situations">
+      <Column Name="Status_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Status_Name" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Association Name="Situations_ExamCalendar" Member="ExamCalendar" ThisKey="Status_ID" OtherKey="Status_ID" Type="ExamCalendar" />
+      <Association Name="Situations_DrugCalendar" Member="DrugCalendar" ThisKey="Status_ID" OtherKey="Status_ID" Type="DrugCalendar" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Staffs" Member="Staffs">
+    <Type Name="Staffs">
+      <Column Name="Staff_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Staff_Pix" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Staff_Name" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Job_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Div_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Staff_TN" Type="System.String" DbType="NVarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="Staff_Email" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Staff_Acc" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Staff_Pwd" Type="System.String" DbType="NVarChar(40) NOT NULL" CanBeNull="false" />
+      <Column Name="Staff_Salt" Type="System.String" DbType="NVarChar(40)" CanBeNull="true" />
+      <Association Name="Staffs_UseRecords" Member="UseRecords" ThisKey="Staff_ID" OtherKey="Staff_ID" Type="UseRecords" />
+      <Association Name="Staffs_RegisterInformation" Member="RegisterInformations" ThisKey="Staff_ID" OtherKey="Staff_ID" Type="RegisterInformation" />
+      <Association Name="Staffs_Diagnosis" Member="Diagnosis" ThisKey="Staff_ID" OtherKey="Docter_ID" Type="Diagnosis" />
+      <Association Name="Staffs_Diagnosis1" Member="Diagnosis1" ThisKey="Staff_ID" OtherKey="Nurse_ID" Type="Diagnosis" />
+      <Association Name="Staffs_Diagnosis2" Member="Diagnosis2" ThisKey="Staff_ID" OtherKey="Counselor_ID" Type="Diagnosis" />
+      <Association Name="Staffs_Evaluation" Member="Evaluations" ThisKey="Staff_ID" OtherKey="Staff_ID" Type="Evaluation" />
+      <Association Name="Divisions_Staffs" Member="Divisions" ThisKey="Div_ID" OtherKey="Div_ID" Type="Divisions" IsForeignKey="true" />
+      <Association Name="JobTitles_Staffs" Member="JobTitles" ThisKey="Job_ID" OtherKey="Job_ID" Type="JobTitles" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.UseRecords" Member="UseRecords">
+    <Type Name="UseRecords">
+      <Column Name="Rec_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Staff_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Ptt_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Frm_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Rec_Use" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Rec_UT" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="Forms_UseRecords" Member="Forms" ThisKey="Frm_ID" OtherKey="Frm_ID" Type="Forms" IsForeignKey="true" />
+      <Association Name="Patients_UseRecords" Member="Patients" ThisKey="Ptt_ID" OtherKey="Ptt_ID" Type="Patients" IsForeignKey="true" />
+      <Association Name="Staffs_UseRecords" Member="Staffs" ThisKey="Staff_ID" OtherKey="Staff_ID" Type="Staffs" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.WorkShifts" Member="WorkShifts">
+    <Type Name="WorkShifts">
+      <Column Name="TI_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TI_Name" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Association Name="WorkShifts_ExamCalendar" Member="ExamCalendar" ThisKey="TI_ID" OtherKey="TI_ID" Type="ExamCalendar" />
+      <Association Name="WorkShifts_OutpatientInformation" Member="OutpatientInformation" ThisKey="TI_ID" OtherKey="TI_ID" Type="OutpatientInformation" />
+    </Type>
+  </Table>
+  <Table Name="dbo.View_DrugSchedule" Member="View_DrugSchedules">
+    <Type Name="View_DrugSchedule">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="病歷號碼" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="姓名" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="藥物名稱" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="使用頻率" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="起始日期" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="結束日期" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="備註" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="結案" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="結案原因" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.View_DrugReminder" Member="View_DrugReminders">
+    <Type Name="View_DrugReminder">
+      <Column Name="DrugCalendarID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PatientName" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="DrugTakenDate" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PhoneNum" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="Division" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="BeforeDays" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="WantRemind" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="DrugName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="isRemind" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.View_ExamReminder" Member="View_ExamReminders">
+    <Type Name="View_ExamReminder">
+      <Column Name="PatientName" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PhoneNum" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="DivisionName" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="ExamName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ExamTakenDate" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="BeforeDays" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="WantRemind" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="isRemind" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ExamCalendarID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.View_ExamCalendar" Member="View_ExamCalendars">
+    <Type Name="View_ExamCalendar">
+      <Column Name="已提醒" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="行事曆ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="病歷號碼" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="病患名稱" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="檢驗項目" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="檢驗日期" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="主治醫師" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="狀態" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="備註" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="檢驗結果" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="結果值" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="提早天數" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="護士ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="諮詢師ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.View_DrugCalendar" Member="View_DrugCalendars">
+    <Type Name="View_DrugCalendar">
+      <Column Name="已提醒" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="病歷號碼" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="病患姓名" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="主治醫師" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="特殊藥物" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="用藥日期" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="狀態" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="備註" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="幾天前提醒" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Staff_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Drug_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="護士ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="諮詢師ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.View_ExamSchedules" Member="View_ExamSchedules">
+    <Type Name="View_ExamSchedule">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="病歷號碼" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="病患名稱" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="檢驗名稱" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="檢驗頻率" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="起始日期" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="結束日期" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="備註" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="結案" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="結案原因" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.RegisterInformation" Member="RegisterInformations">
+    <Type Name="RegisterInformation">
+      <Column Name="RegInfo_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Ptt_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Staff_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="OPI_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="RegisterInformation_Diagnosis" Member="Diagnosis" ThisKey="RegInfo_ID" OtherKey="RegInfo_ID" Type="Diagnosis" />
+      <Association Name="Patients_RegisterInformation" Member="Patients" ThisKey="Ptt_ID" OtherKey="Ptt_ID" Type="Patients" IsForeignKey="true" />
+      <Association Name="OutpatientInformation_RegisterInformation" Member="OutpatientInformation" ThisKey="OPI_ID" OtherKey="OPI_ID" Type="OutpatientInformation" IsForeignKey="true" />
+      <Association Name="Staffs_RegisterInformation" Member="Staffs" ThisKey="Staff_ID" OtherKey="Staff_ID" Type="Staffs" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Diagnosis" Member="Diagnosis">
+    <Type Name="Diagnosis">
+      <Column Name="Diag_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="RegInfo_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Diag_CoD" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Diag_ND" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Docter_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Nurse_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Counselor_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="RmdDay_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Diagnosis_ExamSchedules" Member="ExamSchedules" ThisKey="Diag_ID" OtherKey="Diag_ID" Type="ExamSchedules" />
+      <Association Name="Diagnosis_Evaluation" Member="Evaluations" ThisKey="Diag_ID" OtherKey="Diag_ID" Type="Evaluation" />
+      <Association Name="Diagnosis_DrugSchedules" Member="DrugSchedules" ThisKey="Diag_ID" OtherKey="Diag_ID" Type="DrugSchedules" />
+      <Association Name="RegisterInformation_Diagnosis" Member="RegisterInformation" ThisKey="RegInfo_ID" OtherKey="RegInfo_ID" Type="RegisterInformation" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="RemindDays_Diagnosis" Member="RemindDays" ThisKey="RmdDay_ID" OtherKey="RmdDays_ID" Type="RemindDays" IsForeignKey="true" />
+      <Association Name="Staffs_Diagnosis" Member="Staffs" ThisKey="Docter_ID" OtherKey="Staff_ID" Type="Staffs" IsForeignKey="true" />
+      <Association Name="Staffs_Diagnosis1" Member="Staffs1" ThisKey="Nurse_ID" OtherKey="Staff_ID" Type="Staffs" IsForeignKey="true" />
+      <Association Name="Staffs_Diagnosis2" Member="Staffs2" ThisKey="Counselor_ID" OtherKey="Staff_ID" Type="Staffs" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Evaluation" Member="Evaluations">
+    <Type Name="Evaluation">
+      <Column Name="Eva_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Staff_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Ptt_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Diag_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Eva_Sco" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Eva_Com" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="Diagnosis_Evaluation" Member="Diagnosis" ThisKey="Diag_ID" OtherKey="Diag_ID" Type="Diagnosis" IsForeignKey="true" />
+      <Association Name="Patients_Evaluation" Member="Patients" ThisKey="Ptt_ID" OtherKey="Ptt_ID" Type="Patients" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="Staffs_Evaluation" Member="Staffs" ThisKey="Staff_ID" OtherKey="Staff_ID" Type="Staffs" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DrugCalendar" Member="DrugCalendar">
+    <Type Name="DrugCalendar">
+      <Column Name="DrugCal_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DrugSch_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="RmdDay_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Status_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DrugCal_SD" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="DrugCal_Rem" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="DrugCal_Rmd" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="Situations_DrugCalendar" Member="Situations" ThisKey="Status_ID" OtherKey="Status_ID" Type="Situations" IsForeignKey="true" />
+      <Association Name="DrugSchedules_DrugCalendar" Member="DrugSchedules" ThisKey="DrugSch_ID" OtherKey="DrugSch_ID" Type="DrugSchedules" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DrugSchedules" Member="DrugSchedules">
+    <Type Name="DrugSchedules">
+      <Column Name="DrugSch_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Diag_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Drug_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DrugFreq_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DrugSch_SD" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="DrugSch_ED" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DrugSch_Rem" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="DrugSch_Cls" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="DrugSch_ClsRsn" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="DrugSchedules_DrugCalendar" Member="DrugCalendar" ThisKey="DrugSch_ID" OtherKey="DrugSch_ID" Type="DrugCalendar" />
+      <Association Name="Diagnosis_DrugSchedules" Member="Diagnosis" ThisKey="Diag_ID" OtherKey="Diag_ID" Type="Diagnosis" IsForeignKey="true" DeleteRule="CASCADE" />
+      <Association Name="DrugFrequencies_DrugSchedules" Member="DrugFrequencies" ThisKey="DrugFreq_ID" OtherKey="DrugFreq_ID" Type="DrugFrequencies" IsForeignKey="true" />
+      <Association Name="DrugOverview_DrugSchedules" Member="DrugOverview" ThisKey="Drug_ID" OtherKey="Drug_ID" Type="DrugOverview" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.View_UseRecord" Member="View_UseRecords">
+    <Type Name="View_UseRecords">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="使用者" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="使用表單" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="使用功能" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="使用時間" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="被修改的病患" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

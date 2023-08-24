@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Medicare" Class="MedicareDataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=Medicare;Integrated Security=True" SettingsObjectName="MyDB.Properties.Settings" SettingsPropertyName="MedicareConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.ExamFrequencies" Member="ExamFrequencies">
+    <Type Name="ExamFrequency">
+      <Column Name="檢驗頻率ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="檢驗頻率" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="轉換天數" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="ExamFrequency_ExamSchedule" Member="ExamSchedules" ThisKey="檢驗頻率ID" OtherKey="檢驗頻率ID" Type="ExamSchedule" />
+    </Type>
+  </Table>
+  <Table Name="dbo.RegisterInformation" Member="RegisterInformations">
+    <Type Name="RegisterInformation">
+      <Column Name="掛號資料ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="病患ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="醫療人員ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="診次ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="RegisterInformation_Diagnosi" Member="Diagnosis" ThisKey="掛號資料ID" OtherKey="掛號資料ID" Type="Diagnosi" />
+      <Association Name="Patient_RegisterInformation" Member="Patient" ThisKey="病患ID" OtherKey="病患ID" Type="Patient" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Patients" Member="Patients">
+    <Type Name="Patient">
+      <Column Name="病患ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="姓名" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="身分證字號" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="出生年月日" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="連絡電話" Type="System.String" DbType="NChar(15)" CanBeNull="true" />
+      <Column Name="地址" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="VIP" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="檢驗是否提醒" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="用藥是否提醒" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="病歷號碼" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Patient_RegisterInformation" Member="RegisterInformations" ThisKey="病患ID" OtherKey="病患ID" Type="RegisterInformation" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Diagnosis" Member="Diagnosis">
+    <Type Name="Diagnosi">
+      <Column Name="醫囑資料ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="掛號資料ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="診斷" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="下次看診日期" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="醫生ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="護理師ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="諮詢師ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="提醒天數ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Diagnosi_ExamSchedule" Member="ExamSchedules" ThisKey="醫囑資料ID" OtherKey="醫囑資料ID" Type="ExamSchedule" />
+      <Association Name="Diagnosi_DrugSchedule" Member="DrugSchedules" ThisKey="醫囑資料ID" OtherKey="醫囑資料ID" Type="DrugSchedule" />
+      <Association Name="RegisterInformation_Diagnosi" Member="RegisterInformation" ThisKey="掛號資料ID" OtherKey="掛號資料ID" Type="RegisterInformation" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ExamSchedules" Member="ExamSchedules">
+    <Type Name="ExamSchedule">
+      <Column Name="排程ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="醫囑資料ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="檢驗項目ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="檢驗頻率ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="起始日期" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="結束日期" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="備註" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="結案" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="結案原因" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="ExamSchedule_ExamCalender" Member="ExamCalenders" ThisKey="排程ID" OtherKey="排程ID" Type="ExamCalender" />
+      <Association Name="Diagnosi_ExamSchedule" Member="Diagnosi" ThisKey="醫囑資料ID" OtherKey="醫囑資料ID" Type="Diagnosi" IsForeignKey="true" />
+      <Association Name="ExamFrequency_ExamSchedule" Member="ExamFrequency" ThisKey="檢驗頻率ID" OtherKey="檢驗頻率ID" Type="ExamFrequency" IsForeignKey="true" />
+      <Association Name="ExamOverview_ExamSchedule" Member="ExamOverview" ThisKey="檢驗項目ID" OtherKey="檢驗項目ID" Type="ExamOverview" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ExamOverview" Member="ExamOverview">
+    <Type Name="ExamOverview">
+      <Column Name="檢驗項目ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="[項目(英文名稱)]" Member="項目_英文名稱_" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="中文名稱" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="性別" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="單位" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="[檢驗正常值(上限)]" Member="檢驗正常值_上限_" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="[檢驗正常值(下限)]" Member="檢驗正常值_下限_" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="危險百分比" Type="System.Decimal" DbType="Decimal(5,0) NOT NULL" CanBeNull="false" />
+      <Column Name="檢驗類別ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="ExamOverview_ExamSchedule" Member="ExamSchedule" ThisKey="檢驗項目ID" OtherKey="檢驗項目ID" Type="ExamSchedule" />
+      <Association Name="ExamCategories_ExamOverview" Member="ExamCategories" ThisKey="檢驗類別ID" OtherKey="檢驗類別ID" Type="ExamCategories" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.View_ExamSchedules" Member="View_ExamSchedules">
+    <Type Name="View_ExamSchedules">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="病歷號碼" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="姓名" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="檢驗名稱" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="檢驗頻率" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="起始日期" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="結束日期" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="備註" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="結案" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="結案原因" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DrugOverview" Member="DrugOverviews">
+    <Type Name="DrugOverview">
+      <Column Name="藥物ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="[項目(英文名稱)]" Member="項目_英文名稱_" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="中文名稱" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="藥品單位含量" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="使用方法" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="使用劑量" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="藥品外觀" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="適應症" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="副作用" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="警語" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="用藥指示" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="特殊與否" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="DrugOverview_DrugSchedule" Member="DrugSchedules" ThisKey="藥物ID" OtherKey="藥物ID" Type="DrugSchedule" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DrugSchedules" Member="DrugSchedules">
+    <Type Name="DrugSchedule">
+      <Column Name="用藥排程ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="醫囑資料ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="藥物ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="用藥頻率ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="起始日期" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="結束日期" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="備註" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="結案" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="結案原因" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="Diagnosi_DrugSchedule" Member="Diagnosi" ThisKey="醫囑資料ID" OtherKey="醫囑資料ID" Type="Diagnosi" IsForeignKey="true" />
+      <Association Name="DrugOverview_DrugSchedule" Member="DrugOverview" ThisKey="藥物ID" OtherKey="藥物ID" Type="DrugOverview" IsForeignKey="true" />
+      <Association Name="DrugFrequency_DrugSchedule" Member="DrugFrequency" ThisKey="用藥頻率ID" OtherKey="用藥頻率ID" Type="DrugFrequency" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DrugFrequencies" Member="DrugFrequencies">
+    <Type Name="DrugFrequency">
+      <Column Name="用藥頻率ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="用藥頻率" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="轉換天數" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Association Name="DrugFrequency_DrugSchedule" Member="DrugSchedules" ThisKey="用藥頻率ID" OtherKey="用藥頻率ID" Type="DrugSchedule" />
+    </Type>
+  </Table>
+  <Table Name="dbo.View_DrugSchedule" Member="View_DrugSchedules">
+    <Type Name="View_DrugSchedule">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="病歷號碼" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="姓名" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="藥物名稱" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="使用頻率" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="起始日期" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="結束日期" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="備註" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="結案" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="結案原因" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ExamCalender" Member="ExamCalenders">
+    <Type Name="ExamCalender">
+      <Column Name="行事曆ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="排程ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="狀態ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="檢驗結果ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="提醒天數ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="時段ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="日期" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="結果值" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="備註" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="提醒了沒" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="ExamSchedule_ExamCalender" Member="ExamSchedule" ThisKey="排程ID" OtherKey="排程ID" Type="ExamSchedule" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.View_ExamCalender" Member="View_ExamCalenders">
+    <Type Name="View_ExamCalender">
+      <Column Name="已提醒" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="行事曆ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="病歷號碼" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="病患姓名" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="檢驗項目" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="檢驗日期" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="狀態" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="備註" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="檢驗結果" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="結果值" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="提早天數" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Divisions" Member="Divisions">
+    <Type Name="Divisions">
+      <Column Name="科別ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="科別名" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ExamCategories" Member="ExamCategories">
+    <Type Name="ExamCategories">
+      <Column Name="檢驗類別ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="檢驗類別名稱" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Association Name="ExamCategories_ExamOverview" Member="ExamOverview" ThisKey="檢驗類別ID" OtherKey="檢驗類別ID" Type="ExamOverview" />
+    </Type>
+  </Table>
+</Database>

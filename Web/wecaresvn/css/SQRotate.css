@@ -1,0 +1,38 @@
+﻿/*.ly-plate{
+        position:relative;
+        width:399px;
+        height:399px;
+        margin: 50px auto;
+    }*/
+    .rotate-bg{
+        width:897px;
+        height:600px;
+        background:url(../images/RotateAllBG.jpg);
+        background-size:cover;
+        position:absolute;
+        top:0;
+        left:0
+    }
+    .ly-plate div.lottery-star  #lotteryBtn{
+        width:100px;
+        height:100px;
+        position:absolute;
+        top:305px;
+        left:180px;
+
+         /*top:105px;
+        left:106px;*/
+        /*text-indent:-999em;
+        overflow:hidden;
+        background:url(rotate-static.png);
+        -webkit-transform:rotate(0deg);*/
+        outline:none
+    }
+    /*.ly-plate div.lottery-star #lotteryBtn{
+        cursor: pointer;
+        position: absolute;
+        top:0;
+        left:0;
+        *left:-107px
+    }*/
+

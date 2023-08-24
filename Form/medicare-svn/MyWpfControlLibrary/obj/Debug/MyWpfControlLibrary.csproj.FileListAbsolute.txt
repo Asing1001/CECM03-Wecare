@@ -1,0 +1,17 @@
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyWpfControlLibrary\bin\Debug\MyWpfControlLibrary.dll
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyWpfControlLibrary\bin\Debug\MyWpfControlLibrary.pdb
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyWpfControlLibrary\obj\Debug\MyWpfControlLibrary.csprojResolveAssemblyReference.cache
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyWpfControlLibrary\obj\Debug\Dictionary_BasicControlTemplate_VerticalListBox.baml
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyWpfControlLibrary\obj\Debug\Dictionary_DataGridStyle.baml
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyWpfControlLibrary\obj\Debug\MyWPFGridView.baml
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyWpfControlLibrary\obj\Debug\MyWPFListBox.baml
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyWpfControlLibrary\obj\Debug\UserControl1.baml
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyWpfControlLibrary\obj\Debug\MyWPFGridView.g.cs
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyWpfControlLibrary\obj\Debug\MyWPFListBox.g.cs
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyWpfControlLibrary\obj\Debug\UserControl1.g.cs
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyWpfControlLibrary\obj\Debug\MyWpfControlLibrary_MarkupCompile.cache
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyWpfControlLibrary\obj\Debug\MyWpfControlLibrary.g.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyWpfControlLibrary\obj\Debug\MyWpfControlLibrary.Properties.Resources.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyWpfControlLibrary\obj\Debug\MyWpfControlLibrary.csproj.GenerateResource.Cache
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyWpfControlLibrary\obj\Debug\MyWpfControlLibrary.dll
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyWpfControlLibrary\obj\Debug\MyWpfControlLibrary.pdb

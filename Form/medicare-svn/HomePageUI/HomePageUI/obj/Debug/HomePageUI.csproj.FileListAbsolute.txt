@@ -1,0 +1,25 @@
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\HomePageUI\HomePageUI\bin\Debug\HomePageUI.exe.config
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\HomePageUI\HomePageUI\bin\Debug\HomePageUI.exe
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\HomePageUI\HomePageUI\bin\Debug\HomePageUI.pdb
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\HomePageUI\HomePageUI\bin\Debug\Calendar.NET.dll
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\HomePageUI\HomePageUI\bin\Debug\MyClassLibrary.dll
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\HomePageUI\HomePageUI\bin\Debug\MyDB.dll
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\HomePageUI\HomePageUI\bin\Debug\MyProgram.exe
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\HomePageUI\HomePageUI\bin\Debug\KOTAPI.dll
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\HomePageUI\HomePageUI\bin\Debug\MyWindowsFormsControlLibrary.dll
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\HomePageUI\HomePageUI\bin\Debug\MyClassLibrary.pdb
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\HomePageUI\HomePageUI\bin\Debug\MyProgram.pdb
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\HomePageUI\HomePageUI\bin\Debug\Calendar.NET.pdb
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\HomePageUI\HomePageUI\bin\Debug\Calendar.NET.xml
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\HomePageUI\HomePageUI\bin\Debug\MyDB.pdb
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\HomePageUI\HomePageUI\bin\Debug\MyWindowsFormsControlLibrary.pdb
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\HomePageUI\HomePageUI\obj\Debug\HomePageUI.csprojResolveAssemblyReference.cache
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\HomePageUI\HomePageUI\obj\Debug\HomePageUI.FrmLogin.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\HomePageUI\HomePageUI\obj\Debug\HomePageUI.HomePage.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\HomePageUI\HomePageUI\obj\Debug\HomePageUI.Properties.Resources.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\HomePageUI\HomePageUI\obj\Debug\HomePageUI.csproj.GenerateResource.Cache
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\HomePageUI\HomePageUI\obj\Debug\HomePageUI.exe
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\HomePageUI\HomePageUI\obj\Debug\HomePageUI.pdb
+F:\CECM03Wecare專題\雲端版Wecare\Form\medicare-svn\HomePageUI\HomePageUI\bin\Debug\HomePageUI.exe.config
+F:\CECM03Wecare專題\雲端版Wecare\Form\medicare-svn\HomePageUI\HomePageUI\obj\Debug\HomePageUI.exe
+F:\CECM03Wecare專題\雲端版Wecare\Form\medicare-svn\HomePageUI\HomePageUI\obj\Debug\HomePageUI.pdb

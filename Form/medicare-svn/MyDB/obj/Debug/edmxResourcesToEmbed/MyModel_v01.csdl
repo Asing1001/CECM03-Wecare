@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="MyModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="MyModelContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="PatientSet" EntityType="MyModel.Patient" />
+    <EntitySet Name="RegisterSet" EntityType="MyModel.Register" />
+    <AssociationSet Name="PatientRegister" Association="MyModel.PatientRegister">
+      <End Role="Patient" EntitySet="PatientSet" />
+      <End Role="Register" EntitySet="RegisterSet" />
+    </AssociationSet>
+    <EntitySet Name="AdviceSet" EntityType="MyModel.Advice" />
+    <AssociationSet Name="RegisterAdvice" Association="MyModel.RegisterAdvice">
+      <End Role="Register" EntitySet="RegisterSet" />
+      <End Role="Advice" EntitySet="AdviceSet" />
+    </AssociationSet>
+    <EntitySet Name="InspectionSet" EntityType="MyModel.Inspection" />
+    <AssociationSet Name="AdviceInspection" Association="MyModel.AdviceInspection">
+      <End Role="Advice" EntitySet="AdviceSet" />
+      <End Role="Inspection" EntitySet="InspectionSet" />
+    </AssociationSet>
+    <EntitySet Name="MedicineSet" EntityType="MyModel.Medicine" />
+    <AssociationSet Name="AdviceEntity1" Association="MyModel.AdviceEntity1">
+      <End Role="Advice" EntitySet="AdviceSet" />
+      <End Role="Entity1" EntitySet="MedicineSet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Patient" Abstract="true">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Register" Relationship="MyModel.PatientRegister" FromRole="Patient" ToRole="Register" />
+  </EntityType>
+  <EntityType Name="Register" Abstract="true">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Patient" Relationship="MyModel.PatientRegister" FromRole="Register" ToRole="Patient" />
+    <NavigationProperty Name="Advice" Relationship="MyModel.RegisterAdvice" FromRole="Register" ToRole="Advice" />
+  </EntityType>
+  <Association Name="PatientRegister">
+    <End Type="MyModel.Patient" Role="Patient" Multiplicity="1" />
+    <End Type="MyModel.Register" Role="Register" Multiplicity="*" />
+  </Association>
+  <EntityType Name="Advice" Abstract="true">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Register" Relationship="MyModel.RegisterAdvice" FromRole="Advice" ToRole="Register" />
+    <NavigationProperty Name="Inspection" Relationship="MyModel.AdviceInspection" FromRole="Advice" ToRole="Inspection" />
+    <NavigationProperty Name="Entity1" Relationship="MyModel.AdviceEntity1" FromRole="Advice" ToRole="Entity1" />
+  </EntityType>
+  <Association Name="RegisterAdvice">
+    <End Type="MyModel.Register" Role="Register" Multiplicity="1" />
+    <End Type="MyModel.Advice" Role="Advice" Multiplicity="0..1" />
+  </Association>
+  <EntityType Name="Inspection" Abstract="true">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Advice" Relationship="MyModel.AdviceInspection" FromRole="Inspection" ToRole="Advice" />
+  </EntityType>
+  <Association Name="AdviceInspection">
+    <End Type="MyModel.Advice" Role="Advice" Multiplicity="*" />
+    <End Type="MyModel.Inspection" Role="Inspection" Multiplicity="*" />
+  </Association>
+  <EntityType Name="Medicine" Abstract="true">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Advice" Relationship="MyModel.AdviceEntity1" FromRole="Entity1" ToRole="Advice" />
+  </EntityType>
+  <Association Name="AdviceEntity1">
+    <End Type="MyModel.Advice" Role="Advice" Multiplicity="*" />
+    <End Type="MyModel.Medicine" Role="Entity1" Multiplicity="*" />
+  </Association>
+</Schema>

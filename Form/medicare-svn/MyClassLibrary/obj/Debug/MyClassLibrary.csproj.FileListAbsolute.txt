@@ -1,0 +1,153 @@
+D:\msit 97\Project\MyClassLibrary\bin\Debug\MyClassLibrary.dll.config
+D:\msit 97\Project\MyClassLibrary\bin\Debug\MyClassLibrary.dll
+D:\msit 97\Project\MyClassLibrary\bin\Debug\MyClassLibrary.pdb
+D:\msit 97\Project\MyClassLibrary\obj\Debug\MyClassLibrary.frmLogo.resources
+D:\msit 97\Project\MyClassLibrary\obj\Debug\MyClassLibrary.Properties.Resources.resources
+D:\msit 97\Project\MyClassLibrary\obj\Debug\MyClassLibrary.csproj.GenerateResource.Cache
+D:\msit 97\Project\MyClassLibrary\obj\Debug\MyClassLibrary.dll
+D:\msit 97\Project\MyClassLibrary\obj\Debug\MyClassLibrary.pdb
+D:\msit 97\Project\MyClassLibrary\obj\Debug\MyClassLibrary.csprojResolveAssemblyReference.cache
+E:\10_MSIT97\Project\MyClassLibrary\bin\Debug\MyClassLibrary.dll.config
+E:\10_MSIT97\Project\MyClassLibrary\bin\Debug\MyClassLibrary.dll
+E:\10_MSIT97\Project\MyClassLibrary\bin\Debug\MyClassLibrary.pdb
+E:\10_MSIT97\Project\MyClassLibrary\obj\Debug\MyClassLibrary.frmLogo.resources
+E:\10_MSIT97\Project\MyClassLibrary\obj\Debug\MyClassLibrary.Properties.Resources.resources
+E:\10_MSIT97\Project\MyClassLibrary\obj\Debug\MyClassLibrary.csproj.GenerateResource.Cache
+E:\10_MSIT97\Project\MyClassLibrary\obj\Debug\MyClassLibrary.dll
+E:\10_MSIT97\Project\MyClassLibrary\obj\Debug\MyClassLibrary.pdb
+E:\10_MSIT97\Project\MyClassLibrary\obj\Debug\MyClassLibrary.csprojResolveAssemblyReference.cache
+C:\msit 97\Project\MyClassLibrary\bin\Debug\MyClassLibrary.dll.config
+C:\msit 97\Project\MyClassLibrary\bin\Debug\MyClassLibrary.dll
+C:\msit 97\Project\MyClassLibrary\bin\Debug\MyClassLibrary.pdb
+C:\msit 97\Project\MyClassLibrary\obj\Debug\MyClassLibrary.frmLogo.resources
+C:\msit 97\Project\MyClassLibrary\obj\Debug\MyClassLibrary.Properties.Resources.resources
+C:\msit 97\Project\MyClassLibrary\obj\Debug\MyClassLibrary.csproj.GenerateResource.Cache
+C:\msit 97\Project\MyClassLibrary\obj\Debug\MyClassLibrary.dll
+C:\msit 97\Project\MyClassLibrary\obj\Debug\MyClassLibrary.pdb
+C:\msit 97\Project\MyClassLibrary\obj\Debug\MyClassLibrary.csprojResolveAssemblyReference.cache
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyClassLibrary\bin\Debug\MyClassLibrary.dll.config
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyClassLibrary\bin\Debug\MyClassLibrary.dll
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyClassLibrary\bin\Debug\MyClassLibrary.pdb
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyClassLibrary\bin\Debug\MyDB.dll
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyClassLibrary\bin\Debug\MyDB.pdb
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyClassLibrary\obj\Debug\MyClassLibrary.csprojResolveAssemblyReference.cache
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyClassLibrary\obj\Debug\MyClassLibrary.FrmBase.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyClassLibrary\obj\Debug\MyClassLibrary.FrmBaseModify.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyClassLibrary\obj\Debug\MyClassLibrary.frmLogo.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyClassLibrary\obj\Debug\MyClassLibrary.Properties.Resources.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyClassLibrary\obj\Debug\MyClassLibrary.csproj.GenerateResource.Cache
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyClassLibrary\obj\Debug\MyClassLibrary.dll
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyClassLibrary\obj\Debug\MyClassLibrary.pdb
+D:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\obj\Debug\MyClassLibrary.csprojResolveAssemblyReference.cache
+D:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\obj\Debug\MyClassLibrary.csproj.ResolveComReference.cache
+D:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\obj\Debug\MyClassLibrary.FrmBase.resources
+D:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\obj\Debug\MyClassLibrary.FrmBaseModify.resources
+D:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\obj\Debug\MyClassLibrary.frmLogo.resources
+D:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\obj\Debug\MyClassLibrary.Properties.Resources.resources
+D:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\obj\Debug\MyClassLibrary.csproj.GenerateResource.Cache
+D:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\bin\Debug\MyClassLibrary.dll.config
+D:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\bin\Debug\MyClassLibrary.dll
+D:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\bin\Debug\MyClassLibrary.pdb
+D:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\bin\Debug\MyDB.dll
+D:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\bin\Debug\MyDB.pdb
+D:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\obj\Debug\MyClassLibrary.dll
+D:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\obj\Debug\MyClassLibrary.pdb
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyClassLibrary\obj\Debug\MyClassLibrary.csproj.ResolveComReference.cache
+C:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\bin\Debug\MyClassLibrary.dll.config
+C:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\bin\Debug\MyClassLibrary.dll
+C:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\bin\Debug\MyClassLibrary.pdb
+C:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\bin\Debug\MyDB.dll
+C:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\bin\Debug\MyDB.pdb
+C:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\obj\Debug\MyClassLibrary.csprojResolveAssemblyReference.cache
+C:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\obj\Debug\MyClassLibrary.csproj.ResolveComReference.cache
+C:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\obj\Debug\MyClassLibrary.FrmBase.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\obj\Debug\MyClassLibrary.FrmBaseModify.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\obj\Debug\MyClassLibrary.frmLogo.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\obj\Debug\MyClassLibrary.Properties.Resources.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\obj\Debug\MyClassLibrary.csproj.GenerateResource.Cache
+C:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\obj\Debug\MyClassLibrary.dll
+C:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\obj\Debug\MyClassLibrary.pdb
+H:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\bin\Debug\MyClassLibrary.dll.config
+H:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\bin\Debug\MyClassLibrary.dll
+H:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\bin\Debug\MyClassLibrary.pdb
+H:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\bin\Debug\MyDB.dll
+H:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\bin\Debug\MyDB.pdb
+H:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\obj\Debug\MyClassLibrary.csprojResolveAssemblyReference.cache
+H:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\obj\Debug\MyClassLibrary.csproj.ResolveComReference.cache
+H:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\obj\Debug\MyClassLibrary.FrmBase.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\obj\Debug\MyClassLibrary.FrmBaseModify.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\obj\Debug\MyClassLibrary.frmLogo.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\obj\Debug\MyClassLibrary.Properties.Resources.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\obj\Debug\MyClassLibrary.csproj.GenerateResource.Cache
+H:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\obj\Debug\MyClassLibrary.dll
+H:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\obj\Debug\MyClassLibrary.pdb
+F:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\bin\Debug\MyClassLibrary.dll.config
+F:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\bin\Debug\MyClassLibrary.dll
+F:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\bin\Debug\MyClassLibrary.pdb
+F:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\bin\Debug\MyDB.dll
+F:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\bin\Debug\MyDB.pdb
+F:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\obj\Debug\MyClassLibrary.csproj.ResolveComReference.cache
+F:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\obj\Debug\MyClassLibrary.FrmBase.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\obj\Debug\MyClassLibrary.FrmBaseModify.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\obj\Debug\MyClassLibrary.frmLogo.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\obj\Debug\MyClassLibrary.Properties.Resources.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\obj\Debug\MyClassLibrary.csproj.GenerateResource.Cache
+F:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\obj\Debug\MyClassLibrary.dll
+F:\msit 97\Project\醫療客戶關懷系統\MyClassLibrary\obj\Debug\MyClassLibrary.pdb
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyClassLibrary\bin\Debug\MyClassLibrary.dll.config
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyClassLibrary\bin\Debug\MyClassLibrary.dll
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyClassLibrary\bin\Debug\MyClassLibrary.pdb
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyClassLibrary\bin\Debug\MyDB.dll
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyClassLibrary\bin\Debug\MyDB.pdb
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyClassLibrary\obj\Debug\MyClassLibrary.csprojResolveAssemblyReference.cache
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyClassLibrary\obj\Debug\MyClassLibrary.csproj.ResolveComReference.cache
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyClassLibrary\obj\Debug\MyClassLibrary.FrmBase.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyClassLibrary\obj\Debug\MyClassLibrary.FrmBaseModify.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyClassLibrary\obj\Debug\MyClassLibrary.frmLogo.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyClassLibrary\obj\Debug\MyClassLibrary.Properties.Resources.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyClassLibrary\obj\Debug\MyClassLibrary.csproj.GenerateResource.Cache
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyClassLibrary\obj\Debug\MyClassLibrary.dll
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyClassLibrary\obj\Debug\MyClassLibrary.pdb
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyClassLibrary\bin\Debug\MyClassLibrary.dll.config
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyClassLibrary\bin\Debug\MyClassLibrary.dll
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyClassLibrary\bin\Debug\MyClassLibrary.pdb
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyClassLibrary\bin\Debug\MyDB.dll
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyClassLibrary\bin\Debug\MyDB.pdb
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyClassLibrary\obj\Debug\MyClassLibrary.csprojResolveAssemblyReference.cache
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyClassLibrary\obj\Debug\MyClassLibrary.csproj.ResolveComReference.cache
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyClassLibrary\obj\Debug\MyClassLibrary.FrmBase.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyClassLibrary\obj\Debug\MyClassLibrary.FrmBaseModify.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyClassLibrary\obj\Debug\MyClassLibrary.frmLogo.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyClassLibrary\obj\Debug\MyClassLibrary.Properties.Resources.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyClassLibrary\obj\Debug\MyClassLibrary.csproj.GenerateResource.Cache
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyClassLibrary\obj\Debug\MyClassLibrary.dll
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyClassLibrary\obj\Debug\MyClassLibrary.pdb
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyClassLibrary\bin\Debug\MyClassLibrary.dll.config
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyClassLibrary\bin\Debug\MyClassLibrary.dll
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyClassLibrary\bin\Debug\MyClassLibrary.pdb
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyClassLibrary\bin\Debug\MyDB.dll
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyClassLibrary\bin\Debug\MyDB.pdb
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyClassLibrary\obj\Debug\MyClassLibrary.csprojResolveAssemblyReference.cache
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyClassLibrary\obj\Debug\MyClassLibrary.csproj.ResolveComReference.cache
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyClassLibrary\obj\Debug\MyClassLibrary.FrmBase.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyClassLibrary\obj\Debug\MyClassLibrary.FrmBaseModify.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyClassLibrary\obj\Debug\MyClassLibrary.frmLogo.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyClassLibrary\obj\Debug\MyClassLibrary.Properties.Resources.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyClassLibrary\obj\Debug\MyClassLibrary.csproj.GenerateResource.Cache
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyClassLibrary\obj\Debug\MyClassLibrary.dll
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyClassLibrary\obj\Debug\MyClassLibrary.pdb
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyClassLibrary\bin\Debug\MyClassLibrary.dll.config
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyClassLibrary\bin\Debug\MyClassLibrary.dll
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyClassLibrary\bin\Debug\MyClassLibrary.pdb
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyClassLibrary\bin\Debug\KOTAPI.dll
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyClassLibrary\bin\Debug\MyDB.dll
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyClassLibrary\bin\Debug\MyDB.pdb
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyClassLibrary\obj\Debug\MyClassLibrary.csprojResolveAssemblyReference.cache
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyClassLibrary\obj\Debug\MyClassLibrary.csproj.ResolveComReference.cache
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyClassLibrary\obj\Debug\MyClassLibrary.FrmBase.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyClassLibrary\obj\Debug\MyClassLibrary.FrmBaseModify.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyClassLibrary\obj\Debug\MyClassLibrary.frmLogo.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyClassLibrary\obj\Debug\MyClassLibrary.Properties.Resources.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyClassLibrary\obj\Debug\MyClassLibrary.csproj.GenerateResource.Cache
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyClassLibrary\obj\Debug\MyClassLibrary.dll
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyClassLibrary\obj\Debug\MyClassLibrary.pdb

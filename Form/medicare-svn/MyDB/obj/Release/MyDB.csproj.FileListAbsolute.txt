@@ -1,0 +1,5 @@
+D:\msit 97\Project\醫療客戶關懷系統\MyDB\bin\Release\MyDB.dll.config
+D:\msit 97\Project\醫療客戶關懷系統\MyDB\bin\Release\MyDB.dll
+D:\msit 97\Project\醫療客戶關懷系統\MyDB\bin\Release\MyDB.pdb
+D:\msit 97\Project\醫療客戶關懷系統\MyDB\obj\Release\MyDB.dll
+D:\msit 97\Project\醫療客戶關懷系統\MyDB\obj\Release\MyDB.pdb

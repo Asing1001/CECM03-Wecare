@@ -1,0 +1,574 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FD3A3315-757F-4AF0-A4CB-DEB57284906D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MyProgram</RootNamespace>
+    <AssemblyName>MyProgram</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAdd.designer.cs">
+      <DependentUpon>FrmAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCalendar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCalendar.Designer.cs">
+      <DependentUpon>frmCalendar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCalendarFinal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCalendarFinal.designer.cs">
+      <DependentUpon>FrmCalendarFinal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCombineCalendar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCombineCalendar.Designer.cs">
+      <DependentUpon>FrmCombineCalendar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDivEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDivEdit.Designer.cs">
+      <DependentUpon>FrmDivEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDrugCalendarEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDrugCalendarEdit.Designer.cs">
+      <DependentUpon>FrmDrugCalendarEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmExamCalendarEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmExamCalendarEdit.Designer.cs">
+      <DependentUpon>FrmExamCalendarEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDivAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDivAdd.designer.cs">
+      <DependentUpon>FrmDivAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDivisionsCT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDivisionsCT.designer.cs">
+      <DependentUpon>FrmDivisionsCT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDrugCalendar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDrugCalendar.designer.cs">
+      <DependentUpon>FrmDrugCalendar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDrugEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDrugEdit.designer.cs">
+      <DependentUpon>FrmDrugEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDrugFreqAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDrugFreqAdd.designer.cs">
+      <DependentUpon>FrmDrugFreqAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDrugFrequenciesCT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDrugFrequenciesCT.designer.cs">
+      <DependentUpon>FrmDrugFrequenciesCT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDrugOverAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDrugOverAdd.designer.cs">
+      <DependentUpon>FrmDrugOverAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDrugOverMf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDrugOverMf.designer.cs">
+      <DependentUpon>FrmDrugOverMf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDrugOverviewCT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDrugOverviewCT.designer.cs">
+      <DependentUpon>FrmDrugOverviewCT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDrugSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDrugSchedule.designer.cs">
+      <DependentUpon>FrmDrugSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDrugScheduleNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDrugScheduleNew.designer.cs">
+      <DependentUpon>FrmDrugScheduleNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEdit.designer.cs">
+      <DependentUpon>FrmEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmExamCalendar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmExamCalendar.designer.cs">
+      <DependentUpon>FrmExamCalendar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmExamCategAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmExamCategAdd.designer.cs">
+      <DependentUpon>FrmExamCategAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmExamCategoriesCT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmExamCategoriesCT.designer.cs">
+      <DependentUpon>FrmExamCategoriesCT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmExamEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmExamEdit.designer.cs">
+      <DependentUpon>FrmExamEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmExamFrequenciesAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmExamFrequenciesAdd.designer.cs">
+      <DependentUpon>FrmExamFrequenciesAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmExamFrequenciesCT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmExamFrequenciesCT.designer.cs">
+      <DependentUpon>FrmExamFrequenciesCT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmExamOverAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmExamOverAdd.designer.cs">
+      <DependentUpon>FrmExamOverAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmExamOverMF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmExamOverMF.designer.cs">
+      <DependentUpon>FrmExamOverMF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmExamOverviewCT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmExamOverviewCT.designer.cs">
+      <DependentUpon>FrmExamOverviewCT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmExamSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmExamSchedule.designer.cs">
+      <DependentUpon>FrmExamSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmExamScheduleNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmExamScheduleNew.designer.cs">
+      <DependentUpon>FrmExamScheduleNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmJBT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmJBT.designer.cs">
+      <DependentUpon>FrmJBT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmJBTAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmJBTAdd.designer.cs">
+      <DependentUpon>FrmJBTAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmJBTEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmJBTEdit.Designer.cs">
+      <DependentUpon>FrmJBTEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNewStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNewStaff.designer.cs">
+      <DependentUpon>FrmNewStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPatient.designer.cs">
+      <DependentUpon>FrmPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPersonProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPersonProfile.designer.cs">
+      <DependentUpon>FrmPersonProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReminder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReminder.Designer.cs">
+      <DependentUpon>FrmReminder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReport.designer.cs">
+      <DependentUpon>FrmReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReportDrugClose.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReportDrugClose.designer.cs">
+      <DependentUpon>FrmReportDrugClose.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReportDrugRem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReportDrugRem.designer.cs">
+      <DependentUpon>FrmReportDrugRem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReportExamClose.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReportExamClose.designer.cs">
+      <DependentUpon>FrmReportExamClose.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReportExamRem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReportExamRem.designer.cs">
+      <DependentUpon>FrmReportExamRem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReportmaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReportmaster.designer.cs">
+      <DependentUpon>FrmReportmaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReportmaster2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReportmaster2.Designer.cs">
+      <DependentUpon>FrmReportmaster2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSendPwd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSendPwd.designer.cs">
+      <DependentUpon>frmSendPwd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSituationsAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSituationsAdd.designer.cs">
+      <DependentUpon>FrmSituationsAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSituationsCT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSituationsCT.designer.cs">
+      <DependentUpon>FrmSituationsCT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStaffs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStaffs.designer.cs">
+      <DependentUpon>FrmStaffs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUseRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUseRecord.designer.cs">
+      <DependentUpon>FrmUseRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAdd.resx">
+      <DependentUpon>FrmAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalendar.resx">
+      <DependentUpon>frmCalendar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCalendarFinal.resx">
+      <DependentUpon>FrmCalendarFinal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCombineCalendar.resx">
+      <DependentUpon>FrmCombineCalendar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDivEdit.resx">
+      <DependentUpon>FrmDivEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDrugCalendarEdit.resx">
+      <DependentUpon>FrmDrugCalendarEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmExamCalendarEdit.resx">
+      <DependentUpon>FrmExamCalendarEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDivAdd.resx">
+      <DependentUpon>FrmDivAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDivisionsCT.resx">
+      <DependentUpon>FrmDivisionsCT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDrugCalendar.resx">
+      <DependentUpon>FrmDrugCalendar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDrugEdit.resx">
+      <DependentUpon>FrmDrugEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDrugFreqAdd.resx">
+      <DependentUpon>FrmDrugFreqAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDrugFrequenciesCT.resx">
+      <DependentUpon>FrmDrugFrequenciesCT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDrugOverAdd.resx">
+      <DependentUpon>FrmDrugOverAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDrugOverMf.resx">
+      <DependentUpon>FrmDrugOverMf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDrugOverviewCT.resx">
+      <DependentUpon>FrmDrugOverviewCT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDrugSchedule.resx">
+      <DependentUpon>FrmDrugSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDrugScheduleNew.resx">
+      <DependentUpon>FrmDrugScheduleNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEdit.resx">
+      <DependentUpon>FrmEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmExamCalendar.resx">
+      <DependentUpon>FrmExamCalendar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmExamCategAdd.resx">
+      <DependentUpon>FrmExamCategAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmExamCategoriesCT.resx">
+      <DependentUpon>FrmExamCategoriesCT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmExamEdit.resx">
+      <DependentUpon>FrmExamEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmExamFrequenciesAdd.resx">
+      <DependentUpon>FrmExamFrequenciesAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmExamFrequenciesCT.resx">
+      <DependentUpon>FrmExamFrequenciesCT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmExamOverAdd.resx">
+      <DependentUpon>FrmExamOverAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmExamOverMF.resx">
+      <DependentUpon>FrmExamOverMF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmExamOverviewCT.resx">
+      <DependentUpon>FrmExamOverviewCT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmExamSchedule.resx">
+      <DependentUpon>FrmExamSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmExamScheduleNew.resx">
+      <DependentUpon>FrmExamScheduleNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmJBT.resx">
+      <DependentUpon>FrmJBT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmJBTAdd.resx">
+      <DependentUpon>FrmJBTAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmJBTEdit.resx">
+      <DependentUpon>FrmJBTEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNewStaff.resx">
+      <DependentUpon>FrmNewStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPatient.resx">
+      <DependentUpon>FrmPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPersonProfile.resx">
+      <DependentUpon>FrmPersonProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReminder.resx">
+      <DependentUpon>FrmReminder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReport.resx">
+      <DependentUpon>FrmReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReportDrugClose.resx">
+      <DependentUpon>FrmReportDrugClose.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReportDrugRem.resx">
+      <DependentUpon>FrmReportDrugRem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReportExamClose.resx">
+      <DependentUpon>FrmReportExamClose.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReportExamRem.resx">
+      <DependentUpon>FrmReportExamRem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReportmaster.resx">
+      <DependentUpon>FrmReportmaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReportmaster2.resx">
+      <DependentUpon>FrmReportmaster2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSendPwd.resx">
+      <DependentUpon>frmSendPwd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSituationsAdd.resx">
+      <DependentUpon>FrmSituationsAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSituationsCT.resx">
+      <DependentUpon>FrmSituationsCT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStaffs.resx">
+      <DependentUpon>FrmStaffs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUseRecord.resx">
+      <DependentUpon>FrmUseRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\DataSources\MyDB.ExamCalendar.datasource" />
+    <None Include="Properties\DataSources\MyDB.View_DrugCalendar.datasource" />
+    <None Include="Properties\DataSources\MyDB.View_ExamCalendar.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Calendar.NET\Calendar.NET.csproj">
+      <Project>{6cbc43b6-e950-49b2-b14a-563c50fcd5c3}</Project>
+      <Name>Calendar.NET</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyClassLibrary\MyClassLibrary.csproj">
+      <Project>{bf67dfd9-fe59-4dc3-aa79-d3b028344ba4}</Project>
+      <Name>MyClassLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyDB\MyDB.csproj">
+      <Project>{277a17b3-4d3a-4f18-9e42-d0a73188922f}</Project>
+      <Name>MyDB</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyWindowsFormsControlLibrary\MyWindowsFormsControlLibrary.csproj">
+      <Project>{8cf60838-f408-49d3-9900-4dab9ec49580}</Project>
+      <Name>MyWindowsFormsControlLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyWpfControlLibrary\MyWpfControlLibrary.csproj">
+      <Project>{1BE7B4E0-46FF-498C-80D4-F63F195B359F}</Project>
+      <Name>MyWpfControlLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wecare2-031.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

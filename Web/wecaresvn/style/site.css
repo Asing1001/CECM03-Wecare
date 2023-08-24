@@ -1,0 +1,37 @@
+﻿     /*.main
+     {
+         width:980px;
+         border:1px solid green;
+         height:600px;
+         margin:0 auto;
+         box-shadow:3px 3px silver;
+     }
+     .main > div:nth-child(1)
+      {
+         width:120px;
+         margin:10px;
+         background-color:yellow;
+         float:left;
+      }
+     .main > div:nth-child(2)
+      {
+         width:840px;
+         float:right;
+      }*/
+/*-----------------------------Register--------------------------------*/
+.registerTableStyle {
+            width: 420px;
+        }
+        .registerTableStyle td:nth-child(1){
+           width:90px;
+           text-align:right;
+           padding-right:10px;
+
+        }
+        .registerTableStyle td:nth-child(2), .registerTableStyle td:nth-child(3){
+           width:130px;
+        }
+
+        .panelCenter{
+            margin:4px auto 0px;
+}

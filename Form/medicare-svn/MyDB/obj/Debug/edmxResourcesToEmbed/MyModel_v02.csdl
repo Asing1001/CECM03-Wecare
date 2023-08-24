@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="MyModel_v02" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="MyModel_v02Container" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Patient病患Set" EntityType="MyModel_v02.Patient病患" />
+    <EntitySet Name="Register掛號資料Set" EntityType="MyModel_v02.Register掛號資料" />
+    <EntitySet Name="Advice醫囑資料Set" EntityType="MyModel_v02.Advice醫囑資料" />
+    <EntitySet Name="檢驗項目總表Set" EntityType="MyModel_v02.檢驗項目總表" />
+    <EntitySet Name="Medicine藥物項目總表Set" EntityType="MyModel_v02.Medicine藥物項目總表" />
+    <AssociationSet Name="PatientRegister" Association="MyModel_v02.PatientRegister">
+      <End Role="Patient" EntitySet="Patient病患Set" />
+      <End Role="Register" EntitySet="Register掛號資料Set" />
+    </AssociationSet>
+    <AssociationSet Name="RegisterAdvice" Association="MyModel_v02.RegisterAdvice">
+      <End Role="Register" EntitySet="Register掛號資料Set" />
+      <End Role="Advice" EntitySet="Advice醫囑資料Set" />
+    </AssociationSet>
+    <EntitySet Name="MedicineData用藥資料Set" EntityType="MyModel_v02.MedicineData用藥資料" />
+    <EntitySet Name="InspectionData檢驗項目清單Set" EntityType="MyModel_v02.InspectionData檢驗項目清單" />
+    <AssociationSet Name="AdviceInspectionSheet" Association="MyModel_v02.AdviceInspectionSheet">
+      <End Role="Advice" EntitySet="Advice醫囑資料Set" />
+      <End Role="InspectionSheet" EntitySet="InspectionData檢驗項目清單Set" />
+    </AssociationSet>
+    <AssociationSet Name="MedicineListMedicine" Association="MyModel_v02.MedicineListMedicine">
+      <End Role="MedicineList" EntitySet="MedicineData用藥資料Set" />
+      <End Role="Medicine" EntitySet="Medicine藥物項目總表Set" />
+    </AssociationSet>
+    <AssociationSet Name="InspectionSheetInspection" Association="MyModel_v02.InspectionSheetInspection">
+      <End Role="InspectionSheet" EntitySet="InspectionData檢驗項目清單Set" />
+      <End Role="Inspection" EntitySet="檢驗項目總表Set" />
+    </AssociationSet>
+    <EntitySet Name="檢查類別Set" EntityType="MyModel_v02.檢查類別" />
+    <AssociationSet Name="檢查類別Inspection檢驗項目總表" Association="MyModel_v02.檢查類別Inspection檢驗項目總表">
+      <End Role="檢查類別" EntitySet="檢查類別Set" />
+      <End Role="Inspection檢驗項目總表" EntitySet="檢驗項目總表Set" />
+    </AssociationSet>
+    <EntitySet Name="檢驗資料Set" EntityType="MyModel_v02.檢驗資料" />
+  </EntityContainer>
+  <EntityType Name="Patient病患">
+    <Key>
+      <PropertyRef Name="病歷號碼" />
+    </Key>
+    <Property Name="病歷號碼" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Register" Relationship="MyModel_v02.PatientRegister" FromRole="Patient" ToRole="Register" />
+    <Property Name="Name" Type="String" Nullable="false" />
+    <Property Name="Sex" Type="String" Nullable="false" />
+    <Property Name="Birthday" Type="String" Nullable="false" />
+    <Property Name="Phone1" Type="String" Nullable="false" />
+    <Property Name="Address1" Type="String" Nullable="false" />
+    <Property Name="Email" Type="String" Nullable="false" />
+    <Property Name="身份証字號" Type="String" Nullable="false" />
+    <Property Name="Address2" Type="String" Nullable="false" />
+    <Property Name="Phone2" Type="String" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Register掛號資料">
+    <Key>
+      <PropertyRef Name="掛號資料編號" />
+    </Key>
+    <Property Name="掛號資料編號" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Patient" Relationship="MyModel_v02.PatientRegister" FromRole="Register" ToRole="Patient" />
+    <NavigationProperty Name="Advice" Relationship="MyModel_v02.RegisterAdvice" FromRole="Register" ToRole="Advice" />
+    <Property Name="病歷號碼" Type="String" Nullable="false" />
+    <Property Name="科別" Type="String" Nullable="false" />
+    <Property Name="醫師" Type="String" Nullable="false" />
+    <Property Name="診次" Type="String" Nullable="false" />
+    <Property Name="看診日期" Type="String" Nullable="false" />
+    <Property Name="看診時段" Type="String" Nullable="false" />
+    <Property Name="候診號碼" Type="String" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Advice醫囑資料">
+    <Key>
+      <PropertyRef Name="醫囑資料編號" />
+    </Key>
+    <Property Name="醫囑資料編號" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Register" Relationship="MyModel_v02.RegisterAdvice" FromRole="Advice" ToRole="Register" />
+    <NavigationProperty Name="InspectionSheet" Relationship="MyModel_v02.AdviceInspectionSheet" FromRole="Advice" ToRole="InspectionSheet" />
+    <Property Name="病歷號碼" Type="String" Nullable="false" />
+    <Property Name="醫師" Type="String" Nullable="false" />
+    <Property Name="診次" Type="String" Nullable="false" />
+    <Property Name="諮詢師" Type="String" Nullable="false" />
+    <Property Name="護理師" Type="String" Nullable="false" />
+    <Property Name="檢驗項目清單編號" Type="String" Nullable="false" />
+    <Property Name="用藥項目清單編號" Type="String" Nullable="false" />
+  </EntityType>
+  <EntityType Name="檢驗項目總表">
+    <Key>
+      <PropertyRef Name="查驗項目編號" />
+    </Key>
+    <Property Name="查驗項目編號" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="InspectionSheet" Relationship="MyModel_v02.InspectionSheetInspection" FromRole="Inspection" ToRole="InspectionSheet" />
+    <NavigationProperty Name="檢查類別" Relationship="MyModel_v02.檢查類別Inspection檢驗項目總表" FromRole="Inspection檢驗項目總表" ToRole="檢查類別" />
+    <Property Name="檢驗項目中文名稱" Type="String" Nullable="false" />
+    <Property Name="檢驗項目英文名稱" Type="String" Nullable="false" />
+    <Property Name="檢查類別編號" Type="String" Nullable="false" />
+    <Property Name="適用性別" Type="String" Nullable="false" />
+    <Property Name="單位" Type="String" Nullable="false" />
+    <Property Name="標準值上限" Type="String" Nullable="false" />
+    <Property Name="標準值下限" Type="String" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Medicine藥物項目總表">
+    <Key>
+      <PropertyRef Name="藥物編號" />
+    </Key>
+    <Property Name="藥物編號" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="MedicineList" Relationship="MyModel_v02.MedicineListMedicine" FromRole="Medicine" ToRole="MedicineList" />
+    <Property Name="藥物中文名稱" Type="String" Nullable="false" />
+    <Property Name="藥物英文名稱" Type="String" Nullable="false" />
+    <Property Name="藥物使用次數" Nullable="false" Type="String" />
+    <Property Name="藥物使用方式" Nullable="false" Type="String" />
+    <Property Name="藥物使用劑量" Nullable="false" Type="String" />
+    <Property Name="注意事項" Type="String" Nullable="false" />
+  </EntityType>
+  <Association Name="PatientRegister">
+    <End Type="MyModel_v02.Patient病患" Role="Patient" Multiplicity="1" />
+    <End Type="MyModel_v02.Register掛號資料" Role="Register" Multiplicity="*" />
+  </Association>
+  <Association Name="RegisterAdvice">
+    <End Type="MyModel_v02.Register掛號資料" Role="Register" Multiplicity="1" />
+    <End Type="MyModel_v02.Advice醫囑資料" Role="Advice" Multiplicity="0..1" />
+  </Association>
+  <EntityType Name="MedicineData用藥資料">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Medicine" Relationship="MyModel_v02.MedicineListMedicine" FromRole="MedicineList" ToRole="Medicine" />
+    <Property Name="病歷號碼" Type="String" Nullable="false" />
+    <Property Name="抽血日期" Type="String" Nullable="false" />
+    <Property Name="開設處方日期" Type="String" Nullable="false" />
+    <Property Name="使用方式" Type="String" Nullable="false" />
+    <Property Name="使用次數" Type="String" Nullable="false" />
+    <Property Name="使用劑量" Type="String" Nullable="false" />
+  </EntityType>
+  <EntityType Name="InspectionData檢驗項目清單">
+    <Key>
+      <PropertyRef Name="檢驗項目清單編號" />
+    </Key>
+    <Property Name="檢驗項目清單編號" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Advice" Relationship="MyModel_v02.AdviceInspectionSheet" FromRole="InspectionSheet" ToRole="Advice" />
+    <NavigationProperty Name="Inspection" Relationship="MyModel_v02.InspectionSheetInspection" FromRole="InspectionSheet" ToRole="Inspection" />
+    <Property Name="醫囑資料編號" Type="String" Nullable="false" />
+    <Property Name="抽血日期" Type="String" Nullable="false" />
+    <Property Name="檢驗項目編號" Type="String" Nullable="false" />
+    <Property Name="檢驗正常值" Type="String" Nullable="false" />
+    <Property Name="檢驗結果" Type="String" Nullable="false" />
+    <Property Name="危險值上限" Type="String" Nullable="false" />
+    <Property Name="危險值下限" Type="String" Nullable="false" />
+    <Property Name="迫切危險值通知百分比" Type="String" Nullable="false" />
+  </EntityType>
+  <Association Name="AdviceInspectionSheet">
+    <End Type="MyModel_v02.Advice醫囑資料" Role="Advice" Multiplicity="1" />
+    <End Type="MyModel_v02.InspectionData檢驗項目清單" Role="InspectionSheet" Multiplicity="*" />
+  </Association>
+  <Association Name="MedicineListMedicine">
+    <End Type="MyModel_v02.MedicineData用藥資料" Role="MedicineList" Multiplicity="1" />
+    <End Type="MyModel_v02.Medicine藥物項目總表" Role="Medicine" Multiplicity="*" />
+  </Association>
+  <Association Name="InspectionSheetInspection">
+    <End Type="MyModel_v02.InspectionData檢驗項目清單" Role="InspectionSheet" Multiplicity="1" />
+    <End Type="MyModel_v02.檢驗項目總表" Role="Inspection" Multiplicity="*" />
+  </Association>
+  <EntityType Name="檢查類別">
+    <Key>
+      <PropertyRef Name="檢查類別編號" />
+    </Key>
+    <Property Name="檢查類別編號" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="檢查類別英文名稱" Type="String" Nullable="false" />
+    <NavigationProperty Name="Inspection檢驗項目總表" Relationship="MyModel_v02.檢查類別Inspection檢驗項目總表" FromRole="檢查類別" ToRole="Inspection檢驗項目總表" />
+    <Property Name="檢查類別中文名稱" Type="String" Nullable="false" />
+  </EntityType>
+  <Association Name="檢查類別Inspection檢驗項目總表">
+    <End Type="MyModel_v02.檢查類別" Role="檢查類別" Multiplicity="1" />
+    <End Type="MyModel_v02.檢驗項目總表" Role="Inspection檢驗項目總表" Multiplicity="*" />
+  </Association>
+  <EntityType Name="檢驗資料">
+    <Key>
+      <PropertyRef Name="病歷號碼" />
+    </Key>
+    <Property Name="病歷號碼" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+</Schema>

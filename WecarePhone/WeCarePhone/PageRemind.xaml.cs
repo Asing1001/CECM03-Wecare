@@ -1,0 +1,64 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Navigation;
+using Microsoft.Phone.Controls;
+using Microsoft.Phone.Shell;
+using System.IO.IsolatedStorage;
+
+namespace WeCarePhone
+{
+    public partial class PageRemind : PhoneApplicationPage
+    {
+        public PageRemind()
+        {
+            InitializeComponent();
+        }
+
+        string Key = "pID";
+        private void BtnSubmit_Click(object sender, RoutedEventArgs e)
+        {
+            WeCarePhoneService.Service1Client pxy = new WeCarePhoneService.Service1Client();
+            pxy.GetPatientIDCompleted += pxy_GetPatientIDCompleted;
+            try
+            {
+                pxy.GetPatientIDAsync(TxtIdentity.Text, TxtName.Text);
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("查無此病患！");
+            }
+        }
+
+        
+        void pxy_GetPatientIDCompleted(object sender, WeCarePhoneService.GetPatientIDCompletedEventArgs e)
+        {
+            IsolatedStorageSettings AppSetting = IsolatedStorageSettings.ApplicationSettings;
+
+            AppSetting[Key] = e.Result.ToString();
+
+
+            //NavigationService.GoBack();
+            NavigationService.Navigate(new Uri("/MainPage.xaml", UriKind.RelativeOrAbsolute));
+        }
+
+        private void PhoneApplicationPage_Loaded(object sender, RoutedEventArgs e)
+        {
+            IsolatedStorageSettings AppSettings = IsolatedStorageSettings.ApplicationSettings;
+
+            if (AppSettings.Contains("pID"))
+            {
+                //pID = Convert.ToInt32(AppSettings["pID"]);
+                //NavigationService.Navigate(new Uri("/MainPage.xaml", UriKind.RelativeOrAbsolute));
+            }
+            else
+            {
+
+                //return;
+            }
+        }
+    }
+}

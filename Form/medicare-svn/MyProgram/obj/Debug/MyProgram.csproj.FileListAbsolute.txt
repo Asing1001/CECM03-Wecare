@@ -1,0 +1,585 @@
+D:\msit 97\Project\MyProgram\bin\Debug\MyProgram.exe.config
+D:\msit 97\Project\MyProgram\bin\Debug\MyProgram.exe
+D:\msit 97\Project\MyProgram\bin\Debug\MyProgram.pdb
+D:\msit 97\Project\MyProgram\bin\Debug\MyClassLibrary.dll
+D:\msit 97\Project\MyProgram\bin\Debug\MyDB.dll
+D:\msit 97\Project\MyProgram\bin\Debug\MyClassLibrary.pdb
+D:\msit 97\Project\MyProgram\bin\Debug\MyDB.pdb
+D:\msit 97\Project\MyProgram\obj\Debug\MyProgram.csprojResolveAssemblyReference.cache
+D:\msit 97\Project\MyProgram\obj\Debug\MyProgram.Form1.resources
+D:\msit 97\Project\MyProgram\obj\Debug\MyProgram.FrmAddPatients.resources
+D:\msit 97\Project\MyProgram\obj\Debug\MyProgram.frmCounselorHomePage.resources
+D:\msit 97\Project\MyProgram\obj\Debug\MyProgram.frmDoctorHomePage.resources
+D:\msit 97\Project\MyProgram\obj\Debug\MyProgram.FrmLogin.resources
+D:\msit 97\Project\MyProgram\obj\Debug\MyProgram.FrmNewStaffs.resources
+D:\msit 97\Project\MyProgram\obj\Debug\MyProgram.frmNurseHomePage.resources
+D:\msit 97\Project\MyProgram\obj\Debug\MyProgram.FrmSendPwd.resources
+D:\msit 97\Project\MyProgram\obj\Debug\MyProgram.frmWelcome.resources
+D:\msit 97\Project\MyProgram\obj\Debug\MyProgram.Properties.Resources.resources
+D:\msit 97\Project\MyProgram\obj\Debug\MyProgram.csproj.GenerateResource.Cache
+D:\msit 97\Project\MyProgram\obj\Debug\MyProgram.exe
+D:\msit 97\Project\MyProgram\obj\Debug\MyProgram.pdb
+E:\10_MSIT97\Project\MyProgram\bin\Debug\MyProgram.exe.config
+E:\10_MSIT97\Project\MyProgram\bin\Debug\MyProgram.exe
+E:\10_MSIT97\Project\MyProgram\bin\Debug\MyProgram.pdb
+E:\10_MSIT97\Project\MyProgram\bin\Debug\MyClassLibrary.dll
+E:\10_MSIT97\Project\MyProgram\bin\Debug\MyDB.dll
+E:\10_MSIT97\Project\MyProgram\bin\Debug\MyClassLibrary.pdb
+E:\10_MSIT97\Project\MyProgram\bin\Debug\MyDB.pdb
+E:\10_MSIT97\Project\MyProgram\obj\Debug\MyProgram.csprojResolveAssemblyReference.cache
+E:\10_MSIT97\Project\MyProgram\obj\Debug\MyProgram.Form1.resources
+E:\10_MSIT97\Project\MyProgram\obj\Debug\MyProgram.FrmAddPatients.resources
+E:\10_MSIT97\Project\MyProgram\obj\Debug\MyProgram.frmCounselorHomePage.resources
+E:\10_MSIT97\Project\MyProgram\obj\Debug\MyProgram.frmDoctorHomePage.resources
+E:\10_MSIT97\Project\MyProgram\obj\Debug\MyProgram.FrmLogin.resources
+E:\10_MSIT97\Project\MyProgram\obj\Debug\MyProgram.FrmNewStaffs.resources
+E:\10_MSIT97\Project\MyProgram\obj\Debug\MyProgram.frmNurseHomePage.resources
+E:\10_MSIT97\Project\MyProgram\obj\Debug\MyProgram.FrmSendPwd.resources
+E:\10_MSIT97\Project\MyProgram\obj\Debug\MyProgram.frmWelcome.resources
+E:\10_MSIT97\Project\MyProgram\obj\Debug\MyProgram.Properties.Resources.resources
+E:\10_MSIT97\Project\MyProgram\obj\Debug\MyProgram.csproj.GenerateResource.Cache
+E:\10_MSIT97\Project\MyProgram\obj\Debug\MyProgram.exe
+E:\10_MSIT97\Project\MyProgram\obj\Debug\MyProgram.pdb
+H:\msit 97\Project\MyProgram\bin\Debug\MyProgram.exe.config
+H:\msit 97\Project\MyProgram\obj\Debug\MyProgram.exe
+H:\msit 97\Project\MyProgram\obj\Debug\MyProgram.pdb
+C:\msit 97\Project\MyProgram\bin\Debug\MyProgram.exe.config
+C:\msit 97\Project\MyProgram\bin\Debug\MyProgram.exe
+C:\msit 97\Project\MyProgram\bin\Debug\MyProgram.pdb
+C:\msit 97\Project\MyProgram\bin\Debug\MyClassLibrary.dll
+C:\msit 97\Project\MyProgram\bin\Debug\MyDB.dll
+C:\msit 97\Project\MyProgram\bin\Debug\MyClassLibrary.pdb
+C:\msit 97\Project\MyProgram\bin\Debug\MyDB.pdb
+C:\msit 97\Project\MyProgram\obj\Debug\MyProgram.csprojResolveAssemblyReference.cache
+C:\msit 97\Project\MyProgram\obj\Debug\MyProgram.Form1.resources
+C:\msit 97\Project\MyProgram\obj\Debug\MyProgram.FrmAddPatients.resources
+C:\msit 97\Project\MyProgram\obj\Debug\MyProgram.frmAdminHomePage.resources
+C:\msit 97\Project\MyProgram\obj\Debug\MyProgram.frmCounselorHomePage.resources
+C:\msit 97\Project\MyProgram\obj\Debug\MyProgram.frmDoctorHomePage.resources
+C:\msit 97\Project\MyProgram\obj\Debug\MyProgram.FrmLogin.resources
+C:\msit 97\Project\MyProgram\obj\Debug\MyProgram.FrmNewStaff.resources
+C:\msit 97\Project\MyProgram\obj\Debug\MyProgram.frmNurseHomePage.resources
+C:\msit 97\Project\MyProgram\obj\Debug\MyProgram.FrmSendPwd.resources
+C:\msit 97\Project\MyProgram\obj\Debug\MyProgram.frmUserManager.resources
+C:\msit 97\Project\MyProgram\obj\Debug\MyProgram.frmWelcome.resources
+C:\msit 97\Project\MyProgram\obj\Debug\MyProgram.Properties.Resources.resources
+C:\msit 97\Project\MyProgram\obj\Debug\MyProgram.csproj.GenerateResource.Cache
+C:\msit 97\Project\MyProgram\obj\Debug\MyProgram.exe
+C:\msit 97\Project\MyProgram\obj\Debug\MyProgram.pdb
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\bin\Debug\MyProgram.exe.config
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\bin\Debug\MyProgram.exe
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\bin\Debug\MyProgram.pdb
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\bin\Debug\MyClassLibrary.dll
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\bin\Debug\MyDB.dll
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\bin\Debug\MyClassLibrary.pdb
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\bin\Debug\MyDB.pdb
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.csprojResolveAssemblyReference.cache
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.Form1.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.frmAdminHomePage.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.frmCounselorHomePage.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDivAdd.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDivisionsCT.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.frmDoctorHomePage.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamCategAdd.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamCategoriesCT.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamOverAdd.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamOverMF.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamOverviewCT.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmLogin.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmNewStaff.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.frmNurseHomePage.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmPersonProfile.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.frmReport.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmSendPwd.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.frmWelcome.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.Properties.Resources.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.csproj.GenerateResource.Cache
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.exe
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.pdb
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.Form1.resources
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.frmAdminHomePage.resources
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.frmCounselorHomePage.resources
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDivAdd.resources
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDivisionsCT.resources
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.frmDoctorHomePage.resources
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDrugCalendar.resources
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDrugEdit.resources
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDrugFreqAdd.resources
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDrugFrequenciesCT.resources
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDrugOverAdd.resources
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDrugOverMf.resources
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDrugOverviewCT.resources
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDrugSchedule.resources
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDrugScheduleNew.resources
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmEdit.resources
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamCategAdd.resources
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamCategoriesCT.resources
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamEdit.resources
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamOverAdd.resources
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamOverMF.resources
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamOverviewCT.resources
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamSchedule.resources
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamScheduleNew.resources
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmJBT.resources
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmJBTAdd.resources
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmLogin.resources
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmNewStaff.resources
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.frmNurseHomePage.resources
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmPersonProfile.resources
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmReport.resources
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmSendPwd.resources
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmSituationsAdd.resources
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmSituationsCT.resources
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.frmWelcome.resources
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.Properties.Resources.resources
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.csproj.GenerateResource.Cache
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\bin\Debug\MyProgram.exe.config
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\bin\Debug\MyProgram.exe
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\bin\Debug\MyProgram.pdb
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\bin\Debug\MyClassLibrary.dll
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\bin\Debug\MyDB.dll
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\bin\Debug\MyClassLibrary.pdb
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\bin\Debug\MyDB.pdb
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.csprojResolveAssemblyReference.cache
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.exe
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.pdb
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmStaffs.resources
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmUseRecord.resources
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamCalendarEdit.resources
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamCalendar.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmAdd.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamCalendarEdit.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDrugCalendar.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDrugEdit.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDrugFreqAdd.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDrugFrequenciesCT.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDrugOverAdd.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDrugOverMf.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDrugOverviewCT.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDrugSchedule.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDrugScheduleNew.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmEdit.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamCalendar.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamEdit.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamSchedule.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamScheduleNew.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmJBT.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmJBTAdd.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmPatient.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmSituationsAdd.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmSituationsCT.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmStaffs.resources
+E:\10_MSIT97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmUseRecord.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\bin\Debug\MyProgram.exe.config
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\bin\Debug\MyProgram.exe
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\bin\Debug\MyProgram.pdb
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\bin\Debug\MyClassLibrary.dll
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\bin\Debug\MyDB.dll
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\bin\Debug\MyClassLibrary.pdb
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\bin\Debug\MyDB.pdb
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.csprojResolveAssemblyReference.cache
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.Form1.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.frmAdminHomePage.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.frmCalendar.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamCalendarEdit.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.frmCounselorHomePage.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDivAdd.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDivisionsCT.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.frmDoctorHomePage.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDrugCalendar.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDrugEdit.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDrugFreqAdd.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDrugFrequenciesCT.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDrugOverAdd.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDrugOverMf.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDrugOverviewCT.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDrugSchedule.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDrugScheduleNew.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmEdit.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamCalendar.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamCategAdd.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamCategoriesCT.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamEdit.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamFrequenciesAdd.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamFrequenciesCT.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamOverAdd.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamOverMF.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamOverviewCT.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamSchedule.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamScheduleNew.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmJBT.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmJBTAdd.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmLogin.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmNewStaff.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.frmNurseHomePage.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmPersonProfile.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmReport.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmSendPwd.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmSituationsAdd.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmSituationsCT.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmStaffs.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmUseRecord.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.frmWelcome.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.Properties.Resources.resources
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.csproj.GenerateResource.Cache
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.exe
+C:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.pdb
+F:\Project\醫療客戶關懷系統\MyProgram\bin\Debug\MyProgram.exe.config
+F:\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.exe
+F:\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.pdb
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.frmCalendar.resources
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamFrequenciesAdd.resources
+D:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamFrequenciesCT.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\bin\Debug\MyProgram.exe.config
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\bin\Debug\MyProgram.exe
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\bin\Debug\MyProgram.pdb
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\bin\Debug\MyClassLibrary.dll
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\bin\Debug\MyDB.dll
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\bin\Debug\MyClassLibrary.pdb
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\bin\Debug\MyDB.pdb
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.csprojResolveAssemblyReference.cache
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.Form1.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.frmAdminHomePage.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.frmCalendar.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamCalendarEdit.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.frmCounselorHomePage.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDivAdd.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDivisionsCT.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.frmDoctorHomePage.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDrugCalendar.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDrugEdit.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDrugFreqAdd.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDrugFrequenciesCT.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDrugOverAdd.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDrugOverMf.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDrugOverviewCT.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDrugSchedule.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDrugScheduleNew.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmEdit.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamCalendar.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamCategAdd.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamCategoriesCT.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamEdit.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamFrequenciesAdd.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamFrequenciesCT.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamOverAdd.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamOverMF.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamOverviewCT.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamSchedule.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamScheduleNew.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmJBT.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmJBTAdd.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmLogin.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmNewStaff.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.frmNurseHomePage.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmPersonProfile.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmReport.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmSendPwd.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmSituationsAdd.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmSituationsCT.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmStaffs.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmUseRecord.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.frmWelcome.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.Properties.Resources.resources
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.csproj.GenerateResource.Cache
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.exe
+H:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.pdb
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\bin\Debug\MyProgram.exe.config
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\bin\Debug\MyProgram.exe
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\bin\Debug\MyProgram.pdb
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\bin\Debug\MyClassLibrary.dll
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\bin\Debug\MyDB.dll
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\bin\Debug\MyClassLibrary.pdb
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\bin\Debug\MyDB.pdb
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.csprojResolveAssemblyReference.cache
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.Form1.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.frmAdminHomePage.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.frmCalendar.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamCalendarEdit.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.frmCounselorHomePage.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDivAdd.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDivisionsCT.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.frmDoctorHomePage.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDrugCalendar.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDrugEdit.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDrugFreqAdd.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDrugFrequenciesCT.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDrugOverAdd.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDrugOverMf.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDrugOverviewCT.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDrugSchedule.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmDrugScheduleNew.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmEdit.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamCalendar.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamCategAdd.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamCategoriesCT.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamEdit.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamFrequenciesAdd.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamFrequenciesCT.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamOverAdd.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamOverMF.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamOverviewCT.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamSchedule.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmExamScheduleNew.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmJBT.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmJBTAdd.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmLogin.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmNewStaff.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.frmNurseHomePage.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmPersonProfile.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmReport.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmSendPwd.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmSituationsAdd.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmSituationsCT.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmStaffs.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.FrmUseRecord.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.frmWelcome.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.Properties.Resources.resources
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.csproj.GenerateResource.Cache
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.exe
+F:\msit 97\Project\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.pdb
+C:\Users\III\Google 雲端硬碟\MSIT 97 專題\4. 醫療客戶關懷系統\Codes\醫療客戶關懷系統\MyProgram\bin\Debug\MyProgram.exe.config
+C:\Users\III\Google 雲端硬碟\MSIT 97 專題\4. 醫療客戶關懷系統\Codes\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.exe
+C:\Users\III\Google 雲端硬碟\MSIT 97 專題\4. 醫療客戶關懷系統\Codes\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.pdb
+C:\Users\III\Desktop\醫療客戶關懷系統\MyProgram\bin\Debug\MyProgram.exe.config
+C:\Users\III\Desktop\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.exe
+C:\Users\III\Desktop\醫療客戶關懷系統\MyProgram\obj\Debug\MyProgram.pdb
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\bin\Debug\MyProgram.exe.config
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.exe
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.pdb
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\bin\Debug\MyProgram.exe
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\bin\Debug\MyProgram.pdb
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\bin\Debug\MyClassLibrary.dll
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\bin\Debug\MyDB.dll
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\bin\Debug\MyClassLibrary.pdb
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\bin\Debug\MyDB.pdb
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.csprojResolveAssemblyReference.cache
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.Form1.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.frmAdminHomePage.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.frmCalendar.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.FrmExamCalendarEdit.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.frmCounselorHomePage.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.FrmDivAdd.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.FrmDivisionsCT.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.frmDoctorHomePage.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.FrmDrugCalendar.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.FrmDrugEdit.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.FrmDrugFreqAdd.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.FrmDrugFrequenciesCT.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.FrmDrugOverAdd.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.FrmDrugOverMf.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.FrmDrugOverviewCT.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.FrmDrugSchedule.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.FrmDrugScheduleNew.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.FrmEdit.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.FrmExamCalendar.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.FrmExamCategAdd.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.FrmExamCategoriesCT.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.FrmExamEdit.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.FrmExamFrequenciesAdd.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.FrmExamFrequenciesCT.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.FrmExamOverAdd.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.FrmExamOverMF.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.FrmExamOverviewCT.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.FrmExamSchedule.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.FrmExamScheduleNew.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.FrmJBT.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.FrmJBTAdd.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.FrmLogin.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.FrmNewStaff.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.frmNurseHomePage.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.FrmPersonProfile.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.FrmReport.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.FrmSendPwd.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.FrmSituationsAdd.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.FrmSituationsCT.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.FrmStaffs.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.FrmUseRecord.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.frmWelcome.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.Properties.Resources.resources
+C:\Users\III\Desktop\1234SVN\ medicaresystem\MyProgram\obj\Debug\MyProgram.csproj.GenerateResource.Cache
+C:\Users\III\Desktop\medicaresystem\MyProgram\bin\Debug\MyProgram.exe.config
+C:\Users\III\Desktop\medicaresystem\MyProgram\obj\Debug\MyProgram.exe
+C:\Users\III\Desktop\medicaresystem\MyProgram\obj\Debug\MyProgram.pdb
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\bin\Debug\MyProgram.exe.config
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\bin\Debug\MyProgram.exe
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\bin\Debug\MyProgram.pdb
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\bin\Debug\MyClassLibrary.dll
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\bin\Debug\MyDB.dll
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\bin\Debug\MyClassLibrary.pdb
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\bin\Debug\MyDB.pdb
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.csprojResolveAssemblyReference.cache
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.Form1.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmAdd.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.frmAdminHomePage.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.frmCalendar.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmExamCalendarEdit.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.frmCounselorHomePage.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmDivAdd.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmDivisionsCT.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.frmDoctorHomePage.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmDrugCalendar.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmDrugEdit.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmDrugFreqAdd.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmDrugFrequenciesCT.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmDrugOverAdd.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmDrugOverMf.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmDrugOverviewCT.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmDrugSchedule.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmDrugScheduleNew.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmEdit.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmExamCalendar.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmExamCategAdd.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmExamCategoriesCT.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmExamEdit.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmExamFrequenciesAdd.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmExamFrequenciesCT.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmExamOverAdd.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmExamOverMF.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmExamOverviewCT.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmExamSchedule.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmExamScheduleNew.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmJBT.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmJBTAdd.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmLogin.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmNewStaff.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.frmNurseHomePage.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmPatient.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmPersonProfile.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmReport.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmSendPwd.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmSituationsAdd.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmSituationsCT.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmStaffs.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmUseRecord.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.frmWelcome.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.Properties.Resources.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.csproj.GenerateResource.Cache
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.exe
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(3)\ medicare-svn\MyProgram\obj\Debug\MyProgram.pdb
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\bin\Debug\MyProgram.exe.config
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.exe
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.pdb
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\bin\Debug\MyProgram.exe
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\bin\Debug\MyProgram.pdb
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\bin\Debug\MyClassLibrary.dll
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\bin\Debug\MyDB.dll
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\bin\Debug\MyClassLibrary.pdb
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\bin\Debug\MyDB.pdb
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.csprojResolveAssemblyReference.cache
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.Form1.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmAdd.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.frmAdminHomePage.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.frmCalendar.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmExamCalendarEdit.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.frmCounselorHomePage.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmDivAdd.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmDivisionsCT.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.frmDoctorHomePage.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmDrugCalendar.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmDrugEdit.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmDrugFreqAdd.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmDrugFrequenciesCT.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmDrugOverAdd.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmDrugOverMf.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmDrugOverviewCT.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmDrugSchedule.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmDrugScheduleNew.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmEdit.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmExamCalendar.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmExamCategAdd.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmExamCategoriesCT.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmExamEdit.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmExamFrequenciesAdd.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmExamFrequenciesCT.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmExamOverAdd.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmExamOverMF.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmExamOverviewCT.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmExamSchedule.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmExamScheduleNew.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmJBT.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmJBTAdd.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmLogin.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmNewStaff.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.frmNurseHomePage.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmPatient.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmPersonProfile.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmReport.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmSendPwd.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmSituationsAdd.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmSituationsCT.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmStaffs.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmUseRecord.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.frmWelcome.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.Properties.Resources.resources
+C:\Users\III\Documents\Visual Studio 2013\Projects\醫療客戶關懷系統(7)\ medicare-svn\MyProgram\obj\Debug\MyProgram.csproj.GenerateResource.Cache
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\bin\Debug\MyProgram.exe.config
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.exe
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.pdb
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\bin\Debug\MyProgram.exe
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\bin\Debug\MyProgram.pdb
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\bin\Debug\Calendar.NET.dll
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\bin\Debug\MyClassLibrary.dll
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\bin\Debug\MyDB.dll
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\bin\Debug\MyWindowsFormsControlLibrary.dll
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\bin\Debug\MyWpfControlLibrary.dll
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\bin\Debug\KOTAPI.dll
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\bin\Debug\Calendar.NET.pdb
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\bin\Debug\Calendar.NET.xml
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\bin\Debug\MyClassLibrary.pdb
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\bin\Debug\MyDB.pdb
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\bin\Debug\MyWindowsFormsControlLibrary.pdb
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\bin\Debug\MyWpfControlLibrary.pdb
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.csprojResolveAssemblyReference.cache
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.Form1.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmAdd.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.frmCalendar.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmCalendarFinal.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmCombineCalendar.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmDivEdit.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmDrugCalendarEdit.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmExamCalendarEdit.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmDivAdd.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmDivisionsCT.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmDrugCalendar.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmDrugEdit.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmDrugFreqAdd.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmDrugFrequenciesCT.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmDrugOverAdd.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmDrugOverMf.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmDrugOverviewCT.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmDrugSchedule.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmDrugScheduleNew.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmEdit.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmExamCalendar.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmExamCategAdd.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmExamCategoriesCT.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmExamEdit.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmExamFrequenciesAdd.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmExamFrequenciesCT.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmExamOverAdd.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmExamOverMF.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmExamOverviewCT.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmExamSchedule.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmExamScheduleNew.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmJBT.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmJBTAdd.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmJBTEdit.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmNewStaff.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmPatient.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmPersonProfile.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmReminder.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmReport.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\ChartReport.FrmReportDrugClose.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\ChartReport.FrmReportDrugRem.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\ChartReport.FrmReportExamClose.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\ChartReport.FrmReportExamRem.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\ChartReport.FrmReportmaster.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmReportmaster2.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmSendPwd.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmSituationsAdd.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmSituationsCT.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmStaffs.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.FrmUseRecord.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.Properties.Resources.resources
+C:\Users\III\Desktop\DEMO1\Form\ medicare-svn\MyProgram\obj\Debug\MyProgram.csproj.GenerateResource.Cache
